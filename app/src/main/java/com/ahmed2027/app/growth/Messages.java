@@ -8,11 +8,11 @@ import java.util.Random;
 
 /** Non-shaming, varied encouragement lines (40+ per language in the string-array). */
 public final class Messages {
-    private static final Random R = new Random();
+    private static final Random RND = new Random();
     private Messages() {}
 
     public static String pick(Context c) {
         String[] all = c.getResources().getStringArray(R.array.gentle_messages);
-        return all[R.nextInt(all.length)];
+        return all[RND.nextInt(all.length)];
     }
 }
