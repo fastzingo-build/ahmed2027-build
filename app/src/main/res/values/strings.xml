@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AHMED 2027</string>
+
+    <string name="tab_home">Home</string>
+    <string name="tab_apps">Apps</string>
+    <string name="tab_grow">Grow</string>
+    <string name="tab_work">Work</string>
+    <string name="tab_more">More</string>
+    <string name="nav_label">Main navigation</string>
+
+    <string name="title_home">Today</string>
+    <string name="title_apps">Apps</string>
+    <string name="title_grow">Grow</string>
+    <string name="title_work">Work</string>
+    <string name="title_more">More</string>
+
+    <string name="pending_title">Not built yet</string>
+    <string name="pending_body">This area belongs to a later phase. Nothing here is simulated; it simply is not implemented yet.</string>
+
+    <string name="state_loading">Loading…</string>
+    <string name="state_error_title">Something went wrong</string>
+    <string name="state_error_retry">Try again</string>
+
+    <string name="section_language">Language</string>
+    <string name="language_hint">The layout switches direction instantly (right-to-left for Arabic).</string>
+    <string name="language_arabic">العربية</string>
+    <string name="language_english">English</string>
+    <string name="language_active">Current language</string>
+
+    <string name="section_about">About</string>
+    <string name="about_body">AHMED 2027 — a calm cockpit for focus, prayer, learning and building. Phase 0: foundation only.</string>
+    <string name="about_version">Version %1$s</string>
+
+    <string name="chip_all">All</string>
+    <string name="class_allowed">Allowed</string>
+    <string name="class_limited">Limited</string>
+    <string name="class_blocked">Blocked</string>
+    <string name="class_hidden">Hidden</string>
+    <string name="apps_search_hint">Search apps</string>
+    <string name="apps_empty_title">No apps here</string>
+    <string name="apps_empty_body">Nothing matches this search or category. Long-press an app to change its category.</string>
+    <string name="apps_cannot_open">This app cannot be opened.</string>
+    <string name="menu_favorite">Add to dock</string>
+    <string name="menu_unfavorite">Remove from dock</string>
+    <string name="dock_full">The dock holds 4 apps. Remove one first.</string>
+    <string name="dock_empty">Long-press an app in Apps and choose “Add to dock”.</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_save">Save</string>
+    <string name="action_done">Done</string>
+    <string name="card_next_prayer">Next prayer</string>
+    <string name="prayer_not_set">Prayer times are not set up yet. They arrive with the Prayer module.</string>
+    <string name="prayer_in_minutes">in %1$d min</string>
+    <string name="card_intention">Today’s intention</string>
+    <string name="intention_empty">Tap to write one sentence for today.</string>
+    <string name="card_focus_tasks">Focus tasks</string>
+    <string name="tasks_empty">No tasks yet. Add up to three that matter today.</string>
+    <string name="task_add">Add a task</string>
+    <string name="task_empty_title">Write a short title first.</string>
+    <string name="card_habits">Habits</string>
+    <string name="habits_empty">No habits yet. You will add them in Grow.</string>
+    <string name="habits_progress">%1$d of %2$d done today</string>
+    <string name="card_social">Social time today</string>
+    <string name="social_tiktok">TikTok</string>
+    <string name="social_instagram">Instagram</string>
+    <string name="social_available">30 min available</string>
+    <string name="social_left">%1$d min left</string>
+    <string name="social_used">Used today</string>
+    <string name="small_start">Small start (2 min)</string>
+    <string name="small_start_done">Time is up. You started — that is what counts.</string>
+    <string name="all_apps">All apps</string>
+    <string-array name="small_start_actions">
+        <item>Drink a glass of water.</item>
+        <item>Stand up and stretch for one minute.</item>
+        <item>Write down the very first step of your most important task.</item>
+        <item>Tidy one small spot on your desk.</item>
+        <item>Take ten slow breaths.</item>
+        <item>Read one page of a book.</item>
+    </string-array>
+    <string name="section_text_size">Text size</string>
+    <string name="size_small">Small</string>
+    <string name="size_normal">Normal</string>
+    <string name="size_large">Large</string>
+    <string name="size_xlarge">Extra large</string>
+    <string name="section_backup">Backup</string>
+    <string name="backup_note">Export your data to a JSON file you choose, or restore from one. Restoring replaces your tasks, app categories and logs. Daily social-session records are never restored.</string>
+    <string name="backup_export">Export backup</string>
+    <string name="backup_import">Restore from backup</string>
+    <string name="backup_export_ok">Backup saved.</string>
+    <string name="backup_export_fail">Could not save the backup.</string>
+    <string name="backup_import_ok">Backup restored.</string>
+    <string name="backup_import_fail">This file is not a valid AHMED 2027 backup. Nothing was changed.</string>
+    <string name="ob_step">Step %1$d of %2$d</string>
+    <string name="ob_next">Next</string>
+    <string name="ob_back">Back</string>
+    <string name="ob_start">Start</string>
+    <string name="ob1_title">Welcome to AHMED 2027</string>
+    <string name="ob1_body">A calm cockpit for your day: prayer, focus, learning, creating and building. It is a helper, not a punishment.</string>
+    <string name="ob2_title">Choose your language</string>
+    <string name="ob2_body">You can change it any time in More.</string>
+    <string name="ob3_title">Make AHMED your home screen</string>
+    <string name="ob3_body">Open the system Home-app chooser and pick AHMED 2027. This is optional, and you can switch back whenever you like.</string>
+    <string name="ob3_action">Open Home-app chooser</string>
+    <string name="ob3_failed">Could not open the chooser. Set it in Android Settings, Apps, Default apps.</string>
+    <string name="ob4_title">Permissions are optional</string>
+    <string name="ob4_body">AHMED asks for nothing now. When a feature needs a permission, it explains why first and only asks after you tap.</string>
+
+    <string name="shield_service_label">AHMED Shield</string>
+    <string name="shield_service_description">Sees only which app has come to the front, so AHMED can show its pause or blocked screen. It cannot read the screen, passwords, messages or notifications.</string>
+    <string name="section_shield">Shield</string>
+    <string name="shield_explain">The Shield notices when a Blocked or Limited app, or TikTok / Instagram outside your daily session, comes to the front, and shows AHMED’s own screen instead. It only learns the app’s name. It cannot read what is on screen, passwords, messages or notifications. Phone, SMS, Settings, Clock and Maps are never touched. To turn it on you enable “AHMED Shield” in Android’s Accessibility settings yourself.</string>
+    <string name="shield_status_on">Shield is running.</string>
+    <string name="shield_status_off">Shield is not running. Blocked and Limited labels are only labels until you enable it.</string>
+    <string name="shield_status_paused">Shield is switched off in AHMED.</string>
+    <string name="shield_open_settings">Open Accessibility settings</string>
+    <string name="shield_toggle_on">Switch Shield on</string>
+    <string name="shield_toggle_off">Switch Shield off</string>
+    <string name="shield_open_failed">Could not open Accessibility settings.</string>
+    <string name="shield_banner">Shield is not running, so Blocked and Limited apps are not enforced. Open More to set it up.</string>
+    <string name="blk_blocked_title">%1$s is blocked</string>
+    <string name="blk_blocked_body">You marked this app as Blocked. Take a breath. You can go home now.</string>
+    <string name="blk_limited_title">Pause before %1$s</string>
+    <string name="blk_limited_body">You limited this app. Is opening it right now what you want? If yes, you can continue for 10 minutes after a short pause.</string>
+    <string name="blk_social_title">%1$s: your 30 minutes for today</string>
+    <string name="blk_social_body">Why am I opening this? You get one 30-minute session per day. It ends 30 minutes after you start, or at midnight if that comes first. Leaving and coming back does not pause or reset it. You can cancel now at no cost.</string>
+    <string name="blk_used_title">%1$s: today’s time is used</string>
+    <string name="blk_used_body">Your session for today is over. A new one is available tomorrow. Well done for sticking to it.</string>
+    <string name="blk_wait">Wait %1$d s…</string>
+    <string name="blk_continue">Continue for 10 minutes</string>
+    <string name="blk_start_session">Start my 30 minutes</string>
+    <string name="blk_go_home">Go home</string>
+
+    <string name="section_friendkey">Friend Key</string>
+    <string name="fk_card_body">Your trusted friend holds one very long key. You cannot remember it. To unlock a restricted app or a protected setting, ask your friend, copy the key, and paste it here. Making things stricter never needs the key.</string>
+    <string name="fk_open">Enter Friend Key</string>
+    <string name="fk_unlocked_for">Protected settings are unlocked for about %1$d more min.</string>
+    <string name="fk_unlocked_retry">Unlocked. Now repeat what you wanted to do.</string>
+    <string name="fk_cool_disable">Turn off the 5-minute wait (needs the key)</string>
+    <string name="fk_cool_enable">Turn on the 5-minute wait</string>
+    <string name="fk_cool_state_on">Before the key field appears you wait 5 minutes and can cancel at any time.</string>
+    <string name="fk_cool_state_off">The 5-minute wait is off.</string>
+    <string name="fk_title">Friend Key</string>
+    <string name="fk_explain_app">Unlock this one app for 15 minutes. Then it locks again by itself.</string>
+    <string name="fk_explain_classify">Allow changing app categories for 10 minutes. Then it locks again by itself.</string>
+    <string name="fk_explain_settings">Open protected settings for 10 minutes. Then they lock again by itself.</string>
+    <string name="fk_cool_intro">Take a moment. Do you really need this right now? If you do, start a 5-minute wait. You can cancel at any time.</string>
+    <string name="fk_cool_start">I am sure — start the 5-minute wait</string>
+    <string name="fk_cool_waiting">Waiting: %1$s. Breathe. You can cancel at any time.</string>
+    <string name="fk_hint">Paste the key from your friend</string>
+    <string name="fk_show">Show characters</string>
+    <string name="fk_verify">Unlock</string>
+    <string name="fk_status_ready">Ask your friend for the key, copy it, and paste it above.</string>
+    <string name="fk_status_empty">Paste the key first.</string>
+    <string name="fk_status_checking">Checking…</string>
+    <string name="fk_status_wrong">That key is not correct. Nothing else is affected.</string>
+    <string name="fk_status_locked">Too many wrong tries. You can try again in %1$s. Your phone itself is not locked.</string>
+    <string name="blk_ask_friend">Ask my friend (Friend Key)</string>
+    <string name="action_back">Back</string>
+    <string name="grow_prayer">Prayer</string>
+    <string name="grow_prayer_next">Next: %1$s at %2$s</string>
+    <string name="grow_more_later">Habits, learning, psychology, personal development and fitness arrive in the next phase. Nothing here is simulated.</string>
+    <string name="prayer_in_hm">in %1$d h %2$d min</string>
+    <string name="pr_src_estimated_short">estimated</string>
+    <string name="pr_fajr">Fajr</string>
+    <string name="pr_sunrise">Sunrise</string>
+    <string name="pr_dhuhr">Dhuhr</string>
+    <string name="pr_asr">Asr</string>
+    <string name="pr_maghrib">Maghrib</string>
+    <string name="pr_isha">Isha</string>
+    <string name="pr_today">Today</string>
+    <string name="pr_log_hint">Tap a prayer to note how it went. Only you see this.</string>
+    <string name="pr_week">Last 7 days</string>
+    <string name="pr_state_on_time">On time</string>
+    <string name="pr_state_late">Late</string>
+    <string name="pr_state_missed">Missed</string>
+    <string name="pr_state_missed_today">Missed today</string>
+    <string name="pr_state_clear">Clear</string>
+    <string name="pr_week_empty">Nothing noted yet this week. Start with today, whenever you like.</string>
+    <string name="pr_week_summary">%1$d prayers marked as prayed this week (%2$d on time).</string>
+    <string name="pr_week_day">%1$s: %2$d of 5</string>
+    <string name="pr_week_gentle">Every prayer counts. A missed one is a reason to restart gently, not to give up.</string>
+    <string name="pr_update">Update times now</string>
+    <string name="pr_qibla">Qibla direction</string>
+    <string name="pr_adhkar">Dhikr and adhkar</string>
+    <string name="pr_settings">Prayer settings</string>
+    <string name="pr_src_estimated">Estimated offline from the sun’s position. Connect to the internet and tap “Update times” for the official-method times.</string>
+    <string name="pr_src_saved">Times from Aladhan (Tunisia method), saved on this phone.</string>
+    <string name="pr_next_in">%1$s in %2$d h %3$d min</string>
+    <string name="pr_updating">Updating…</string>
+    <string name="pr_update_ok">Times updated.</string>
+    <string name="pr_update_offline">No internet. Showing saved or estimated times.</string>
+    <string name="pr_update_error">Could not get times from the server. Showing saved or estimated times.</string>
+    <string name="pr_reminders">Adhan reminders</string>
+    <string name="pr_reminders_explain">AHMED can notify you at each prayer time. This is off until you turn it on. For on-time alerts Android 12 asks you to allow exact alarms; without that, alerts may be a few minutes late.</string>
+    <string name="pr_reminders_on">Turn reminders on</string>
+    <string name="pr_reminders_off">Turn reminders off</string>
+    <string name="pr_exact_ok">Exact alarms are allowed. Reminders will be on time.</string>
+    <string name="pr_exact_missing">Exact alarms are not allowed. Reminders still work but may be a few minutes late.</string>
+    <string name="pr_exact_grant">Allow exact alarms</string>
+    <string name="pr_notif_blocked">Notifications are switched off for AHMED, so reminders cannot appear.</string>
+    <string name="pr_notif_open">Open notification settings</string>
+    <string name="pr_open_failed">Could not open that settings page.</string>
+    <string name="pr_miui_hint">On Xiaomi/MIUI also set AHMED to Autostart and Battery “No restrictions”, or the system may stop reminders.</string>
+    <string name="pr_sound">Reminder sound</string>
+    <string name="pr_sound_default">Default notification tone</string>
+    <string name="pr_sound_alarm">Alarm tone</string>
+    <string name="pr_sound_silent">Silent (vibrate only)</string>
+    <string name="pr_offsets">Manual time adjustment</string>
+    <string name="pr_offsets_explain">If a time differs from your local mosque, move it by up to 10 minutes. This applies to saved and estimated times.</string>
+    <string name="pr_offset_less">%1$s: one minute earlier</string>
+    <string name="pr_offset_more">%1$s: one minute later</string>
+    <string name="pr_focus">Prayer focus window</string>
+    <string name="pr_focus_explain">Off by default. When on, Limited apps and TikTok / Instagram rest for 10 minutes from each adhan (needs the Shield). Phone, SMS, Settings, Clock and Maps are never affected.</string>
+    <string name="pr_focus_on">Turn focus window on</string>
+    <string name="pr_focus_off">Turn focus window off</string>
+    <string name="pr_channel_name">Prayer</string>
+    <string name="pr_notif_title">Time for %1$s</string>
+    <string name="pr_notif_text">A calm moment. Tap to open AHMED.</string>
+    <string name="qibla_bearing">Qibla: %1$s° from true north</string>
+    <string name="qibla_no_sensor">This phone has no rotation sensor. Use the direction above with any compass app.</string>
+    <string name="qibla_hint">Hold the phone flat. Turn until the arrow points to the top.</string>
+    <string name="qibla_calibrate">The compass needs calibrating: move the phone in a figure 8 a few times.</string>
+    <string name="qibla_aligned">You are facing the Qibla.</string>
+    <string name="dhikr_counter">Dhikr counter</string>
+    <string name="dhikr_tap">Count</string>
+    <string name="dhikr_reset">Reset</string>
+    <string name="adhkar_1n">Say 100 times. Meaning: Glory and praise be to Allah.</string>
+    <string name="adhkar_2n">Say up to 100 times a day. Meaning: I ask Allah for forgiveness and turn back to Him.</string>
+    <string name="adhkar_3n">Say 10 times. Meaning: None has the right to be worshipped but Allah alone, with no partner; His is the dominion and His is the praise, and He is able to do all things.</string>
+    <string name="adhkar_4n">Send blessings on the Prophet.</string>
+    <string name="adhkar_5n">Evening: say 3 times. Meaning: I seek refuge in the perfect words of Allah from the evil of what He created.</string>
+    <string name="adhkar_morning">Morning adhkar</string>
+    <string name="adhkar_evening">Evening adhkar</string>
+    <string name="adhkar_disclaimer">Short, well-known phrases only. Please check the wording and counts with a trusted book or teacher. No Quran verses or commentary are included.</string>
+    <string name="blk_prayer_title">It is prayer time</string>
+    <string name="blk_prayer_body">%1$s rests for a few minutes now. Take the moment for prayer. You can go home.</string>
+    <string name="adhkar_1">سُبْحَانَ اللَّهِ وَبِحَمْدِهِ</string>
+    <string name="adhkar_2">أَسْتَغْفِرُ اللَّهَ وَأَتُوبُ إِلَيْهِ</string>
+    <string name="adhkar_3">لَا إِلَٰهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ</string>
+    <string name="adhkar_4">اللَّهُمَّ صَلِّ وَسَلِّمْ عَلَىٰ نَبِيِّنَا مُحَمَّدٍ</string>
+    <string name="adhkar_5">أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ</string>
+
+    <!-- Phase 6 -->
+    <string name="grow_habits">Habits</string>
+    <string name="grow_habits_sub">Small daily routines, restart gently</string>
+    <string name="grow_calm">Calm &amp; mind</string>
+    <string name="grow_calm_sub">Urges, triggers, evening reflection</string>
+    <string name="grow_personal">Personal development</string>
+    <string name="grow_personal_sub">English plan, vocabulary, reading, goals</string>
+    <string name="grow_learn">Learn</string>
+    <string name="grow_learn_sub">A curated library, no feed</string>
+    <string name="grow_fitness">Fitness</string>
+    <string name="grow_fitness_sub">Short indoor sessions and walking</string>
+    <string name="routine_morning">Morning</string>
+    <string name="routine_evening">Evening</string>
+    <string name="routine_anytime">Anytime</string>
+    <string name="habits_week">%1$d of %2$d this week</string>
+    <string name="habit_add">Add a habit</string>
+    <string name="habit_hint">Make it tiny, like \"one glass of water\"</string>
+    <string name="habit_routine">When?</string>
+    <string name="habit_comeback">Welcome back. That counts.</string>
+    <string name="habit_run">%1$d days in a row</string>
+    <string name="habit_restart">Restart gently whenever you like</string>
+    <string name="habit_archive">Archive</string>
+    <string name="habit_archive_q">Archive this habit? Your history is kept.</string>
+    <string name="habits_tiny_hint">Long-press a habit to archive it. Missing a day is normal, just continue.</string>
+    <string name="timer_done">Done. Well done for showing up.</string>
+    <string name="psy_not_medical">These tools are simple self-help exercises. They are not medical advice or treatment. If things feel heavy, talk to a doctor or someone you trust.</string>
+    <string name="psy_tools">Tools</string>
+    <string name="psy_two_min">Start for 2 minutes</string>
+    <string name="psy_urge">Ride the urge (3 min)</string>
+    <string name="psy_replace">Pick a replacement action</string>
+    <string name="psy_trigger_add">Note a trigger</string>
+    <string name="psy_recovery">I slipped: recover</string>
+    <string name="psy_recovery_done">Slips happen. You came back, and that is the skill.</string>
+    <string name="psy_t_what">What happened?</string>
+    <string name="psy_t_where">Where were you?</string>
+    <string name="psy_t_feeling">How did you feel?</string>
+    <string name="psy_t_saved">Saved. Noticing is the first step.</string>
+    <string name="psy_trigger_recent">Recent triggers</string>
+    <string name="psy_trigger_hint">Look for patterns in time, place and feeling. They stay on your phone.</string>
+    <string name="reflect_evening">Evening reflection</string>
+    <string name="reflect_weekly">Weekly review</string>
+    <string name="reflect_friday">It is Friday: a good moment for your weekly review.</string>
+    <string name="reflect_intro">Three short questions. Write as little or as much as you like.</string>
+    <string name="re_q1">What went well today?</string>
+    <string name="re_q2">What was hard, and what did you do?</string>
+    <string name="re_q3">One small thing for tomorrow</string>
+    <string name="rw_q1">What was my best moment this week?</string>
+    <string name="rw_q2">What drained me, and what helped?</string>
+    <string name="rw_q3">What will I keep or change next week?</string>
+    <string name="reflect_empty">Write at least a few words first.</string>
+    <string name="reflect_saved">Saved on your phone.</string>
+    <string name="reflect_past">Recent entries</string>
+    <string name="pd_log_minutes">Log learning minutes</string>
+    <string name="pd_minutes_hint">Minutes</string>
+    <string name="pd_logged">Logged</string>
+    <string name="pd_week_minutes">Learning in the last 7 days: %1$d min</string>
+    <string name="pd_english">English A1 → A2, 4 weeks</string>
+    <string name="pd_english_intro">About 20 minutes a day. Tick tasks as you finish them.</string>
+    <string name="pd_week">Week %1$d</string>
+    <string name="pd_vocab">Vocabulary</string>
+    <string name="pd_vocab_due">%1$d due today, %2$d words in total</string>
+    <string name="pd_review">Review due words</string>
+    <string name="pd_add_word">Add a word</string>
+    <string name="pd_word_hint">English word</string>
+    <string name="pd_translation_hint">Meaning</string>
+    <string name="pd_card_of">Card %1$d of %2$d</string>
+    <string name="pd_show">Show answer</string>
+    <string name="pd_knew">I knew it</string>
+    <string name="pd_again">Not yet</string>
+    <string name="pd_review_done">Review finished. Nice work.</string>
+    <string name="pd_reading">Reading plan</string>
+    <string name="pd_add_book">Add a book</string>
+    <string name="pd_book_title">Book title</string>
+    <string name="pd_book_pages">Total pages</string>
+    <string name="pd_book_progress">%1$d of %2$d pages (%3$d%%). About %4$d days left at your pace. Tap to log pages.</string>
+    <string name="pd_pages_today">Pages read today</string>
+    <string name="pd_exercises">Thinking &amp; communication</string>
+    <string name="pd_exercise_sub">A short exercise</string>
+    <string name="pd_goals">Goals</string>
+    <string name="pd_add_goal">Add a goal</string>
+    <string name="pd_goal_hint">What do you want to reach?</string>
+    <string name="pd_goal_progress">%1$d of %2$d milestones</string>
+    <string name="pd_add_milestone">Add a milestone</string>
+    <string name="pd_milestone_hint">A small next step</string>
+    <string name="pd_goal_done">Mark goal as done</string>
+    <string name="cat_english">English</string>
+    <string name="cat_science">Science</string>
+    <string name="cat_history">History</string>
+    <string name="cat_culture">General culture</string>
+    <string name="cat_technology">Technology</string>
+    <string name="cat_programming">Programming</string>
+    <string name="cat_entrepreneurship">Entrepreneurship</string>
+    <string name="cat_business">Business</string>
+    <string name="learn_intro">A small library you choose. No search box, no recommendations, no Shorts.</string>
+    <string name="learn_limit">Honest note: embedded videos may still show related videos at the end, and this cannot be fully switched off. Official channels open in YouTube itself.</string>
+    <string name="learn_filter">Filter</string>
+    <string name="learn_f_all">All</string>
+    <string name="learn_f_fav">Favorites</string>
+    <string name="learn_f_later">Watch later</string>
+    <string name="learn_f_history">History</string>
+    <string name="learn_verify">verify link</string>
+    <string name="learn_none">Nothing here yet.</string>
+    <string name="learn_add">Add a video by link</string>
+    <string name="learn_url_hint">YouTube video link</string>
+    <string name="learn_title_hint">Title</string>
+    <string name="learn_category">Category</string>
+    <string name="learn_bad_url">That is not a video link I can use.</string>
+    <string name="learn_no_shorts">Shorts are not added here, by design.</string>
+    <string name="learn_watch">Watch</string>
+    <string name="learn_open_channel">Open channel</string>
+    <string name="learn_fav">Add to favorites</string>
+    <string name="learn_unfav">Remove from favorites</string>
+    <string name="learn_later">Watch later</string>
+    <string name="learn_unlater">Remove from watch later</string>
+    <string name="learn_note">Note</string>
+    <string name="learn_note_hint">What did you learn?</string>
+    <string name="learn_remove">Remove from library</string>
+    <string name="learn_no_app">No app can open this link.</string>
+    <string name="player_note">Related videos may appear at the end. Close when you are done.</string>
+    <string name="player_done">Done watching</string>
+    <string name="fit_safety">Move at a comfortable pace. Stop if you feel pain or dizziness, and talk to a doctor if unsure.</string>
+    <string name="fit_today">Today</string>
+    <string name="fit_all">All sessions</string>
+    <string name="fit_rest">Rest day. Three active days in a row, so your body gets a break. A gentle walk is fine.</string>
+    <string name="fit_minutes">%1$d minutes, no equipment</string>
+    <string name="fit_done">Session finished. Nice.</string>
+    <string name="fit_walk">Walking</string>
+    <string name="fit_log_walk">Log a walk</string>
+    <string name="fit_minutes_hint">Minutes walked</string>
+    <string name="fit_week">Movement in the last 7 days: %1$d min</string>
+    <string name="fit_goal_suggest">A gentle target for next week: %1$d min (never more than 10%% above what you did)</string>
+    <string name="fit_last14">Last 14 days: %1$d min</string>
+    <string name="fit_no_steps">Steps are not counted automatically, so no extra permission is needed. Log walking minutes yourself.</string>
+    <string name="score_title">This week\'s Growth Score</string>
+    <string name="score_value">%1$d / 100</string>
+    <string name="score_not_enough">Not enough data yet</string>
+    <string name="score_up">Up %1$d from last week</string>
+    <string name="score_down">Down %1$d from last week. That is okay.</string>
+    <string name="score_same">Same as last week</string>
+    <string name="score_none">—</string>
+    <string name="score_components">Prayer %1$s · Habits %2$s · Learning %3$s · Movement %4$s · Creation %5$s · Focus %6$s</string>
+    <string name="score_note">A trend for you only, not a grade. \"—\" means no data yet.</string>
+    <string-array name="gentle_messages">
+        <item>One small step is enough today.</item>
+        <item>Showing up matters more than being perfect.</item>
+        <item>You can begin again right now.</item>
+        <item>A slip is information, not a verdict.</item>
+        <item>Be as kind to yourself as you would be to a friend.</item>
+        <item>Rest is part of growth.</item>
+        <item>Tiny actions add up quietly.</item>
+        <item>You do not have to feel ready to start.</item>
+        <item>Today only needs to be a little better than a bad day.</item>
+        <item>Breathe slowly. You have more time than it feels.</item>
+        <item>Progress is rarely a straight line.</item>
+        <item>You came back. That is the whole skill.</item>
+        <item>Choose the next small thing, only that.</item>
+        <item>Your worth is not your productivity.</item>
+        <item>Hard days still count.</item>
+        <item>Notice the urge, let it pass like a wave.</item>
+        <item>You are building a life, not passing a test.</item>
+        <item>Two minutes is a real start.</item>
+        <item>Drink some water and stretch a little.</item>
+        <item>A walk can change the mood of a whole day.</item>
+        <item>You have survived every hard day so far.</item>
+        <item>Let good enough be good enough.</item>
+        <item>Slow is still moving.</item>
+        <item>Gentle discipline lasts longer than harsh discipline.</item>
+        <item>Today, protect your sleep.</item>
+        <item>It is okay to ask someone for help.</item>
+        <item>Thank someone today, it lifts you too.</item>
+        <item>Remember why you started, softly.</item>
+        <item>You can do hard things in small pieces.</item>
+        <item>Your phone can wait. Your attention is precious.</item>
+        <item>Start before you feel motivated.</item>
+        <item>Every returning counts as a win.</item>
+        <item>Look at how far you have come, not only how far is left.</item>
+        <item>One honest minute of rest beats an hour of guilt.</item>
+        <item>What would the calm version of you do next?</item>
+        <item>Peace grows from small, repeated choices.</item>
+        <item>You are allowed to take it one hour at a time.</item>
+        <item>Failure to be perfect is not failure to grow.</item>
+        <item>A good routine is one you can keep on a bad day.</item>
+        <item>You are learning, and learning is messy.</item>
+        <item>Say a quiet prayer or take a deep breath, whichever you need.</item>
+        <item>Today is a fresh page.</item>
+        <item>Be patient: roots grow before leaves.</item>
+        <item>Keep going gently.</item>
+    </string-array>
+    <string-array name="urge_lines">
+        <item>Notice the urge. Where do you feel it in your body?</item>
+        <item>Breathe in for four, out for six. You do not have to act.</item>
+        <item>Urges rise, peak and fall like a wave. Keep watching.</item>
+        <item>It is already weaker than a minute ago. Keep breathing.</item>
+        <item>You are the one watching the urge, not the urge itself.</item>
+        <item>Almost there. Let it pass.</item>
+    </string-array>
+    <string-array name="replace_actions">
+        <item>Drink a glass of water slowly.</item>
+        <item>Do 10 slow squats or push-ups.</item>
+        <item>Step outside and look at the sky.</item>
+        <item>Wash your face with cool water.</item>
+        <item>Call or message someone kind.</item>
+        <item>Make wudu and pray two rak\'ahs.</item>
+        <item>Write down what you feel in three lines.</item>
+    </string-array>
+    <string-array name="feelings">
+        <item>Calm</item>
+        <item>Bored</item>
+        <item>Stressed</item>
+        <item>Lonely</item>
+        <item>Tired</item>
+        <item>Sad</item>
+        <item>Anxious</item>
+        <item>Angry</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="recovery_steps">
+        <item>Pause and breathe slowly three times.</item>
+        <item>Name what happened in one neutral sentence, without blaming yourself.</item>
+        <item>Ask what the trigger was: time, place, feeling.</item>
+        <item>Choose one small action for the next hour that moves you the other way.</item>
+        <item>Return to your routine at the next prayer. Today is not ruined.</item>
+    </string-array>
+    <string-array name="english_w1">
+        <item>Learn the alphabet sounds and greetings (hello, how are you).</item>
+        <item>Say 5 sentences about yourself out loud.</item>
+        <item>Learn 10 words about family and daily life.</item>
+        <item>Listen to one slow English lesson for 10 minutes.</item>
+    </string-array>
+    <string-array name="english_w2">
+        <item>Practice present simple: I work, he works.</item>
+        <item>Learn 10 words about food and shopping.</item>
+        <item>Write 5 sentences about your day.</item>
+        <item>Order food or ask a price in a role play.</item>
+    </string-array>
+    <string-array name="english_w3">
+        <item>Practice past simple: I went, I saw.</item>
+        <item>Learn 10 words about travel and places.</item>
+        <item>Tell a short story of your weekend in 6 sentences.</item>
+        <item>Watch a short English video with subtitles.</item>
+    </string-array>
+    <string-array name="english_w4">
+        <item>Practice future with will and going to.</item>
+        <item>Learn 10 words about work and study.</item>
+        <item>Write a short message or email in English.</item>
+        <item>Have a 5-minute speaking practice and record yourself.</item>
+    </string-array>
+    <string-array name="exercise_titles">
+        <item>Question your assumption</item>
+        <item>Say it clearly</item>
+        <item>Confidence step</item>
+    </string-array>
+    <string-array name="exercise_texts">
+        <item>Pick a belief you hold strongly. Write one reason it could be wrong and one fact that supports it. Decide what would change your mind.</item>
+        <item>Pick a point you want to make. Say it in two sentences: the point, then one reason. Then listen to a reply without interrupting.</item>
+        <item>Choose one small thing that makes you slightly nervous, like asking a question. Do it today and write how it went.</item>
+    </string-array>
+    <string-array name="vocab_seed" translatable="false">
+        <item>hello|مرحبا</item>
+        <item>please|من فضلك</item>
+        <item>thank you|شكرًا</item>
+        <item>water|ماء</item>
+        <item>food|طعام</item>
+        <item>family|عائلة</item>
+        <item>friend|صديق</item>
+        <item>work|عمل</item>
+        <item>study|دراسة</item>
+        <item>home|منزل</item>
+        <item>today|اليوم</item>
+        <item>tomorrow|غدًا</item>
+        <item>yesterday|أمس</item>
+        <item>happy|سعيد</item>
+        <item>tired|متعب</item>
+        <item>big|كبير</item>
+        <item>small|صغير</item>
+        <item>buy|يشتري</item>
+        <item>sell|يبيع</item>
+        <item>travel|سفر</item>
+        <item>street|شارع</item>
+        <item>time|وقت</item>
+        <item>money|مال</item>
+        <item>help|مساعدة</item>
+        <item>learn|يتعلّم</item>
+        <item>understand|يفهم</item>
+        <item>remember|يتذكّر</item>
+        <item>important|مهم</item>
+        <item>difficult|صعب</item>
+        <item>easy|سهل</item>
+    </string-array>
+    <string-array name="workout_names">
+        <item>Gentle start</item>
+        <item>Core and legs</item>
+        <item>Full body mix</item>
+        <item>Strength and balance</item>
+        <item>Longer flow</item>
+    </string-array>
+    <string-array name="workout_0">
+        <item>March in place slowly</item>
+        <item>Arm circles</item>
+        <item>Gentle squats</item>
+        <item>Shoulder rolls and neck stretch</item>
+        <item>Slow breathing and cool-down</item>
+    </string-array>
+    <string-array name="workout_1">
+        <item>Marching knees up</item>
+        <item>Squats</item>
+        <item>Glute bridges</item>
+        <item>Plank on knees or toes</item>
+        <item>Wall sit</item>
+        <item>Stretch legs and back</item>
+    </string-array>
+    <string-array name="workout_2">
+        <item>Warm-up march</item>
+        <item>Jumping jacks (or step jacks)</item>
+        <item>Squats</item>
+        <item>Push-ups (wall, knee or full)</item>
+        <item>Lunges</item>
+        <item>Plank</item>
+        <item>Mountain climbers (slow)</item>
+        <item>Cool-down stretch</item>
+    </string-array>
+    <string-array name="workout_3">
+        <item>Warm-up march</item>
+        <item>Squats</item>
+        <item>Push-ups</item>
+        <item>Lunges</item>
+        <item>Superman hold</item>
+        <item>Side plank (left)</item>
+        <item>Side plank (right)</item>
+        <item>Single-leg balance</item>
+        <item>Glute bridges</item>
+        <item>Cool-down stretch</item>
+    </string-array>
+    <string-array name="workout_4">
+        <item>Warm-up march</item>
+        <item>Arm circles</item>
+        <item>Squats</item>
+        <item>Push-ups</item>
+        <item>Lunges</item>
+        <item>Plank</item>
+        <item>Step jacks</item>
+        <item>Glute bridges</item>
+        <item>Superman hold</item>
+        <item>Bird-dog</item>
+        <item>Child\'s pose</item>
+        <item>Slow breathing</item>
+    </string-array>
+
+    <!-- Phase 7 -->
+    <string name="work_title">Work</string>
+    <string name="work_tab_sub">Projects, tasks, bugs, journal, dev timer</string>
+    <string name="work_projects">Projects</string>
+    <string name="work_project">Project</string>
+    <string name="work_add_project">Add a project</string>
+    <string name="work_project_hint">Project name</string>
+    <string name="work_open_items">%1$d open items</string>
+    <string name="work_dev">Dev session timer</string>
+    <string name="work_dev_cfg">Work %1$d min, break %2$d min</string>
+    <string name="work_dev_start">Start dev session</string>
+    <string name="work_dev_cfg_btn">Change lengths</string>
+    <string name="work_dev_work_hint">Work minutes (5-180)</string>
+    <string name="work_dev_break_hint">Break minutes (1-60)</string>
+    <string name="work_break">Break</string>
+    <string name="work_break_line">Stand up, drink water, rest your eyes.</string>
+    <string name="work_journal">Work journal</string>
+    <string name="work_journal_add">Add an entry</string>
+    <string name="work_journal_hint">What did you build or learn?</string>
+    <string name="work_repos">GitHub repositories</string>
+    <string name="work_add_repo">Add a repository link</string>
+    <string name="work_ai">AI tools</string>
+    <string name="work_ai_note">Opens the installed app, or the website if the app is not installed.</string>
+    <string name="ai_claude">Claude</string>
+    <string name="ai_chatgpt">ChatGPT</string>
+    <string name="ai_gemini">Gemini</string>
+    <string name="work_resources">Technical resources</string>
+    <string name="work_add_resource">Add a resource</string>
+    <string name="work_link_title">Title</string>
+    <string name="work_link_url">Link (https://…)</string>
+    <string name="work_open">Open</string>
+    <string name="link_bad">That is not a valid web link.</string>
+    <string name="pk_task">Tasks</string>
+    <string name="pk_bug">Bugs</string>
+    <string name="pk_feature">Features</string>
+    <string name="pk_milestone">Milestones</string>
+    <string name="pk_add_task">Add a task</string>
+    <string name="pk_add_bug">Add a bug</string>
+    <string name="pk_add_feature">Add a feature</string>
+    <string name="pk_add_milestone">Add a milestone</string>
+    <string name="pn_notes">Project notes</string>
+    <string name="pn_empty">Tap to write notes</string>
+    <string name="pn_none">Nothing yet</string>
+    <string name="pn_add">Add</string>
+    <string name="pn_title_hint">Title</string>
+    <string name="pn_doing">in progress</string>
+    <string name="pn_set_doing">Mark in progress</string>
+    <string name="pn_set_prio">Set priority</string>
+    <string name="pn_high">(high)</string>
+    <string name="pn_low">(low)</string>
+    <string name="creator_title">Creator</string>
+    <string name="creator_tab_sub">Ideas, scripts, calendar for TikTok and Instagram</string>
+    <string name="creator_goal">This week: %1$d of %2$d videos published</string>
+    <string name="creator_goal_met">Goal reached. Enjoy it.</string>
+    <string name="creator_goal_gentle">Tap to change the goal. A smaller goal you keep beats a big one you drop.</string>
+    <string name="creator_goal_set">Weekly goal (videos)</string>
+    <string name="creator_add_idea">Add an idea</string>
+    <string name="creator_idea_hint">Idea in a few words</string>
+    <string name="creator_calendar">Content calendar</string>
+    <string name="creator_view_week">Show this week</string>
+    <string name="creator_view_month">Show this month</string>
+    <string name="creator_cal_empty">Nothing scheduled in this period.</string>
+    <string name="stage_idea">Idea</string>
+    <string name="stage_planning">Planning</string>
+    <string name="stage_recording">Recording</string>
+    <string name="stage_editing">Editing</string>
+    <string name="stage_ready">Ready</string>
+    <string name="stage_published">Published</string>
+    <string name="plat_tiktok">TikTok</string>
+    <string name="plat_instagram">Instagram</string>
+    <string name="plat_both">Both</string>
+    <string name="creator_advance">Move to next stage</string>
+    <string name="creator_edit">Script, caption, hashtags</string>
+    <string name="creator_set_date">Set publish date</string>
+    <string name="creator_set_platform">Set platform</string>
+    <string name="creator_open_post">Open the post</string>
+    <string name="creator_no_url">No post link saved.</string>
+    <string name="creator_checklist">Before you publish</string>
+    <string name="creator_mark_published">Mark as published</string>
+    <string name="creator_post_url">Post link</string>
+    <string name="creator_post_url_hint">Optional: paste the link</string>
+    <string name="creator_open_apps">Open the apps</string>
+    <string name="creator_open_note">Nothing is posted for you and no account is accessed. Opening a social app follows the normal session rules of the Shield.</string>
+    <string name="creator_app_missing">That app is not installed.</string>
+    <string name="cs_hook">Hook</string>
+    <string name="cs_body">Body</string>
+    <string name="cs_cta">Call to action</string>
+    <string name="cs_caption">Caption</string>
+    <string name="cs_hashtags">Hashtags</string>
+    <string name="cs_hook_hint">The first 2 seconds</string>
+    <string name="cs_body_hint">Main points</string>
+    <string name="cs_cta_hint">What should viewers do?</string>
+    <string name="cs_caption_hint">Description text</string>
+    <string name="cs_hashtags_hint">#tag #tag</string>
+    <string name="cs_insert_tags">Hashtag sets</string>
+    <string name="cs_new_set">Save as new set</string>
+    <string name="cs_set_name">Set name</string>
+    <string name="focus_title">Focus &amp; notifications</string>
+    <string name="focus_tab_sub">%1$d focus minutes in the last 7 days</string>
+    <string name="focus_session">Focus session</string>
+    <string name="focus_line">One thing at a time. Phone down.</string>
+    <string name="focus_start_min">Start %1$d minutes</string>
+    <string name="focus_custom">Custom length</string>
+    <string name="focus_custom_hint">Minutes (5-240)</string>
+    <string name="focus_custom_range">Please choose a value in the allowed range.</string>
+    <string name="focus_week">Focus in the last 7 days: %1$d min</string>
+    <string name="focus_dnd_title">Do Not Disturb</string>
+    <string name="focus_dnd_on">Access granted. Sessions and quiet periods can silence your phone.</string>
+    <string name="focus_dnd_off">Access not granted yet.</string>
+    <string name="focus_dnd_explain">To silence notifications during focus, Android needs you to grant Do Not Disturb access to this app in system settings. This app never reads your notifications.</string>
+    <string name="focus_dnd_grant">Open Do Not Disturb access</string>
+    <string name="focus_fallback">Without access the timer still works, but your notifications are not silenced. Putting the phone in Do Not Disturb yourself works too.</string>
+    <string name="focus_allowed">Still allowed: calls from starred contacts, alarms, prayer reminders. Emergency alerts from the system are never blocked.</string>
+    <string name="focus_no_dnd_toast">Do Not Disturb access is not granted. The timer runs without silencing notifications.</string>
+    <string name="quiet_title">Quiet periods</string>
+    <string name="quiet_explain">Do Not Disturb turns on and off by itself at these times (needs access). It may be a few minutes late.</string>
+    <string name="quiet_on">On</string>
+    <string name="quiet_off">Off</string>
+    <string name="quiet_turn_on">Turn on</string>
+    <string name="quiet_turn_off">Turn off</string>
+    <string name="quiet_add">Add a quiet period</string>
+    <string name="quiet_from">From</string>
+    <string name="quiet_to">To</string>
+    <string name="quiet_same">Start and end must differ.</string>
+    <string name="an_title">Analytics</string>
+    <string name="an_tab_sub">Local summaries, week and month</string>
+    <string name="an_local_note">Everything here is computed on your phone from what you logged. Nothing is sent anywhere.</string>
+    <string name="an_show_month">Show last 30 days</string>
+    <string name="an_show_week">Show last 7 days</string>
+    <string name="an_habits">Habits</string>
+    <string name="an_learning">Learning</string>
+    <string name="an_movement">Movement</string>
+    <string name="an_focus">Focus</string>
+    <string name="an_creator">Creator output</string>
+    <string name="an_social">Social sessions</string>
+    <string name="an_unit_checks">check-ins</string>
+    <string name="an_unit_min">min</string>
+    <string name="an_unit_posts">posts</string>
+    <string name="an_unit_sessions">sessions</string>
+    <string name="an_summary">%1$d %2$s, active on %3$d of %4$d days</string>
+    <string name="an_no_data">No data in this period</string>
+    <string name="an_prayer">Prayer on time</string>
+    <string name="an_prayer_value">%1$d%% on time (%2$d of %3$d logged)</string>
+    <string name="an_your_data">Your data</string>
+    <string name="an_export">Export everything (JSON)</string>
+    <string name="an_delete_note">Deleting removes what you created. Social-session history, the clock-tamper log, app protection settings and the Friend Key are kept so protections cannot be reset by deleting.</string>
+    <string name="an_delete">Delete my data</string>
+    <string name="an_delete_confirm">This permanently deletes your habits, notes, projects, content, logs and prayer records on this phone. Export first if you want a copy.</string>
+    <string name="an_delete_yes">Delete</string>
+    <string name="an_deleted">Your data was deleted.</string>
+    <string-array name="publish_checklist">
+        <item>Audio is clear</item>
+        <item>Captions or text are readable</item>
+        <item>Hook is in the first seconds</item>
+        <item>Caption and hashtags are ready</item>
+        <item>Nothing private is visible</item>
+    </string-array>
+</resources>

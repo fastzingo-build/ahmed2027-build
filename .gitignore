@@ -1,0 +1,8 @@
+*.iml
+*.jks
+*.keystore
+.gradle/
+.idea/
+build/
+friend_key.txt
+local.properties

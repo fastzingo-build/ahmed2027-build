@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">أحمد 2027</string>
+
+    <string name="tab_home">الرئيسية</string>
+    <string name="tab_apps">التطبيقات</string>
+    <string name="tab_grow">النمو</string>
+    <string name="tab_work">العمل</string>
+    <string name="tab_more">المزيد</string>
+    <string name="nav_label">التنقل الرئيسي</string>
+
+    <string name="title_home">اليوم</string>
+    <string name="title_apps">التطبيقات</string>
+    <string name="title_grow">النمو</string>
+    <string name="title_work">العمل</string>
+    <string name="title_more">المزيد</string>
+
+    <string name="pending_title">لم يُبنَ بعد</string>
+    <string name="pending_body">هذا القسم ضمن مرحلة لاحقة. لا شيء هنا وهمي؛ هو فقط غير منفَّذ حتى الآن.</string>
+
+    <string name="state_loading">جارٍ التحميل…</string>
+    <string name="state_error_title">حدث خطأ ما</string>
+    <string name="state_error_retry">حاول مرة أخرى</string>
+
+    <string name="section_language">اللغة</string>
+    <string name="language_hint">يتغير اتجاه الواجهة فورًا (من اليمين إلى اليسار للعربية).</string>
+    <string name="language_arabic">العربية</string>
+    <string name="language_english">English</string>
+    <string name="language_active">اللغة الحالية</string>
+
+    <string name="section_about">حول التطبيق</string>
+    <string name="about_body">أحمد 2027 — قمرة هادئة للتركيز والصلاة والتعلّم والبناء. المرحلة 0: الأساس فقط.</string>
+    <string name="about_version">الإصدار %1$s</string>
+
+    <string name="chip_all">الكل</string>
+    <string name="class_allowed">مسموح</string>
+    <string name="class_limited">محدود</string>
+    <string name="class_blocked">محظور</string>
+    <string name="class_hidden">مخفي</string>
+    <string name="apps_search_hint">ابحث في التطبيقات</string>
+    <string name="apps_empty_title">لا توجد تطبيقات هنا</string>
+    <string name="apps_empty_body">لا شيء يطابق هذا البحث أو التصنيف. اضغط مطولًا على تطبيق لتغيير تصنيفه.</string>
+    <string name="apps_cannot_open">لا يمكن فتح هذا التطبيق.</string>
+    <string name="menu_favorite">أضِف إلى الشريط السفلي</string>
+    <string name="menu_unfavorite">أزِل من الشريط السفلي</string>
+    <string name="dock_full">الشريط السفلي يتسع لـ 4 تطبيقات. أزل واحدًا أولًا.</string>
+    <string name="dock_empty">اضغط مطولًا على تطبيق في «التطبيقات» واختر «أضِف إلى الشريط السفلي».</string>
+    <string name="action_cancel">إلغاء</string>
+    <string name="action_save">حفظ</string>
+    <string name="action_done">تم</string>
+    <string name="card_next_prayer">الصلاة القادمة</string>
+    <string name="prayer_not_set">لم تُضبط مواقيت الصلاة بعد. ستصل مع وحدة الصلاة.</string>
+    <string name="prayer_in_minutes">بعد %1$d د</string>
+    <string name="card_intention">نيّة اليوم</string>
+    <string name="intention_empty">اضغط لتكتب جملة واحدة لهذا اليوم.</string>
+    <string name="card_focus_tasks">مهام التركيز</string>
+    <string name="tasks_empty">لا مهام بعد. أضف حتى ثلاث مهام تهمّك اليوم.</string>
+    <string name="task_add">أضِف مهمة</string>
+    <string name="task_empty_title">اكتب عنوانًا قصيرًا أولًا.</string>
+    <string name="card_habits">العادات</string>
+    <string name="habits_empty">لا عادات بعد. ستضيفها من «النمو».</string>
+    <string name="habits_progress">أُنجز %1$d من %2$d اليوم</string>
+    <string name="card_social">وقت التواصل اليوم</string>
+    <string name="social_tiktok">تيك توك</string>
+    <string name="social_instagram">إنستغرام</string>
+    <string name="social_available">30 دقيقة متاحة</string>
+    <string name="social_left">متبقي %1$d د</string>
+    <string name="social_used">استُهلك اليوم</string>
+    <string name="small_start">بداية صغيرة (دقيقتان)</string>
+    <string name="small_start_done">انتهى الوقت. لقد بدأت، وهذا هو المهم.</string>
+    <string name="all_apps">كل التطبيقات</string>
+    <string-array name="small_start_actions">
+        <item>اشرب كوب ماء.</item>
+        <item>قف وتمدّد لمدة دقيقة.</item>
+        <item>اكتب أول خطوة في أهم مهمة لديك.</item>
+        <item>رتّب مكانًا صغيرًا على مكتبك.</item>
+        <item>خذ عشرة أنفاس بطيئة.</item>
+        <item>اقرأ صفحة واحدة من كتاب.</item>
+    </string-array>
+    <string name="section_text_size">حجم الخط</string>
+    <string name="size_small">صغير</string>
+    <string name="size_normal">عادي</string>
+    <string name="size_large">كبير</string>
+    <string name="size_xlarge">كبير جدًا</string>
+    <string name="section_backup">النسخ الاحتياطي</string>
+    <string name="backup_note">صدّر بياناتك إلى ملف JSON تختاره، أو استعدها منه. الاستعادة تستبدل مهامك وتصنيفات التطبيقات والسجلات. سجلات جلسات التواصل اليومية لا تُستعاد أبدًا.</string>
+    <string name="backup_export">تصدير نسخة احتياطية</string>
+    <string name="backup_import">الاستعادة من نسخة احتياطية</string>
+    <string name="backup_export_ok">تم حفظ النسخة الاحتياطية.</string>
+    <string name="backup_export_fail">تعذّر حفظ النسخة الاحتياطية.</string>
+    <string name="backup_import_ok">تمت الاستعادة.</string>
+    <string name="backup_import_fail">هذا الملف ليس نسخة احتياطية صالحة لأحمد 2027. لم يتغير شيء.</string>
+    <string name="ob_step">الخطوة %1$d من %2$d</string>
+    <string name="ob_next">التالي</string>
+    <string name="ob_back">رجوع</string>
+    <string name="ob_start">ابدأ</string>
+    <string name="ob1_title">مرحبًا بك في أحمد 2027</string>
+    <string name="ob1_body">قمرة هادئة ليومك: الصلاة والتركيز والتعلّم والإبداع والبناء. هو مساعد، وليس عقابًا.</string>
+    <string name="ob2_title">اختر لغتك</string>
+    <string name="ob2_body">يمكنك تغييرها في أي وقت من «المزيد».</string>
+    <string name="ob3_title">اجعل أحمد شاشتك الرئيسية</string>
+    <string name="ob3_body">افتح قائمة اختيار تطبيق الشاشة الرئيسية في النظام واختر «أحمد 2027». هذا اختياري، ويمكنك الرجوع متى شئت.</string>
+    <string name="ob3_action">افتح قائمة اختيار الشاشة الرئيسية</string>
+    <string name="ob3_failed">تعذّر فتح القائمة. اضبطها من إعدادات أندرويد، التطبيقات، التطبيقات الافتراضية.</string>
+    <string name="ob4_title">الأذونات اختيارية</string>
+    <string name="ob4_body">لا يطلب التطبيق شيئًا الآن. عندما تحتاج ميزة إلى إذن، سيشرح السبب أولًا ولن يطلبه إلا بعد أن تضغط.</string>
+
+    <string name="shield_service_label">درع أحمد</string>
+    <string name="shield_service_description">يرى فقط أي تطبيق جاء إلى الواجهة ليعرض أحمد شاشة التوقف أو الحظر. لا يستطيع قراءة الشاشة أو كلمات المرور أو الرسائل أو الإشعارات.</string>
+    <string name="section_shield">الدرع</string>
+    <string name="shield_explain">يلاحظ الدرع عندما يأتي تطبيق «محظور» أو «محدود»، أو تيك توك / إنستغرام خارج جلستك اليومية، إلى الواجهة، فيعرض شاشة أحمد بدلًا منه. هو يعرف اسم التطبيق فقط، ولا يستطيع قراءة ما على الشاشة ولا كلمات المرور ولا الرسائل ولا الإشعارات. الهاتف والرسائل القصيرة والإعدادات والساعة والخرائط لا يمسّها أبدًا. لتشغيله تفعّل «درع أحمد» بنفسك من إعدادات إمكانية الوصول في أندرويد.</string>
+    <string name="shield_status_on">الدرع يعمل.</string>
+    <string name="shield_status_off">الدرع لا يعمل. تصنيفا «محظور» و«محدود» مجرد تسميات إلى أن تفعّله.</string>
+    <string name="shield_status_paused">الدرع مُوقَف من داخل أحمد.</string>
+    <string name="shield_open_settings">افتح إعدادات إمكانية الوصول</string>
+    <string name="shield_toggle_on">شغّل الدرع</string>
+    <string name="shield_toggle_off">أوقف الدرع</string>
+    <string name="shield_open_failed">تعذّر فتح إعدادات إمكانية الوصول.</string>
+    <string name="shield_banner">الدرع لا يعمل، لذلك لا يُطبَّق الحظر والتحديد على التطبيقات. افتح «المزيد» لإعداده.</string>
+    <string name="blk_blocked_title">%1$s محظور</string>
+    <string name="blk_blocked_body">لقد صنّفت هذا التطبيق «محظورًا». خذ نفسًا عميقًا. يمكنك العودة إلى الشاشة الرئيسية الآن.</string>
+    <string name="blk_limited_title">توقّف قليلًا قبل %1$s</string>
+    <string name="blk_limited_body">لقد حدّدت هذا التطبيق. هل فتحه الآن هو ما تريده فعلًا؟ إن كان كذلك فيمكنك المتابعة 10 دقائق بعد وقفة قصيرة.</string>
+    <string name="blk_social_title">%1$s: نصف ساعتك لهذا اليوم</string>
+    <string name="blk_social_body">لماذا أفتح هذا التطبيق؟ لديك جلسة واحدة مدتها 30 دقيقة في اليوم. تنتهي بعد 30 دقيقة من بدئها، أو عند منتصف الليل إن جاء قبل ذلك. الخروج والعودة لا يوقفانها ولا يعيدانها. يمكنك الإلغاء الآن دون أي كلفة.</string>
+    <string name="blk_used_title">%1$s: انتهى وقت اليوم</string>
+    <string name="blk_used_body">انتهت جلستك لهذا اليوم. تتوفر جلسة جديدة غدًا. أحسنت التزامك.</string>
+    <string name="blk_wait">انتظر %1$d ث…</string>
+    <string name="blk_continue">تابع لمدة 10 دقائق</string>
+    <string name="blk_start_session">ابدأ نصف ساعتي</string>
+    <string name="blk_go_home">الرئيسية</string>
+
+    <string name="section_friendkey">مفتاح الصديق</string>
+    <string name="fk_card_body">صديقك الموثوق يحتفظ بمفتاح واحد طويل جدًا. لا يمكنك حفظه. لفتح تطبيق مقيَّد أو إعداد محمي، اطلب المفتاح من صديقك وانسخه والصقه هنا. جعل الأمور أشدّ صرامة لا يحتاج إلى المفتاح أبدًا.</string>
+    <string name="fk_open">أدخل مفتاح الصديق</string>
+    <string name="fk_unlocked_for">الإعدادات المحمية مفتوحة لنحو %1$d دقيقة أخرى.</string>
+    <string name="fk_unlocked_retry">تم الفتح. كرّر الآن ما أردت فعله.</string>
+    <string name="fk_cool_disable">أوقف انتظار الدقائق الخمس (يحتاج المفتاح)</string>
+    <string name="fk_cool_enable">شغّل انتظار الدقائق الخمس</string>
+    <string name="fk_cool_state_on">قبل ظهور حقل المفتاح تنتظر 5 دقائق ويمكنك الإلغاء في أي وقت.</string>
+    <string name="fk_cool_state_off">انتظار الدقائق الخمس متوقف.</string>
+    <string name="fk_title">مفتاح الصديق</string>
+    <string name="fk_explain_app">افتح هذا التطبيق وحده لمدة 15 دقيقة. ثم يُقفل من جديد تلقائيًا.</string>
+    <string name="fk_explain_classify">اسمح بتغيير تصنيفات التطبيقات لمدة 10 دقائق. ثم يُقفل من جديد تلقائيًا.</string>
+    <string name="fk_explain_settings">افتح الإعدادات المحمية لمدة 10 دقائق. ثم تُقفل من جديد تلقائيًا.</string>
+    <string name="fk_cool_intro">خذ لحظة. هل تحتاج هذا فعلًا الآن؟ إن كنت تحتاجه فابدأ انتظار 5 دقائق. يمكنك الإلغاء في أي وقت.</string>
+    <string name="fk_cool_start">أنا متأكد — ابدأ انتظار 5 دقائق</string>
+    <string name="fk_cool_waiting">الانتظار: %1$s. تنفّس. يمكنك الإلغاء في أي وقت.</string>
+    <string name="fk_hint">الصق المفتاح الذي أعطاك إياه صديقك</string>
+    <string name="fk_show">إظهار الأحرف</string>
+    <string name="fk_verify">افتح</string>
+    <string name="fk_status_ready">اطلب المفتاح من صديقك وانسخه والصقه في الحقل أعلاه.</string>
+    <string name="fk_status_empty">الصق المفتاح أولًا.</string>
+    <string name="fk_status_checking">جارٍ التحقق…</string>
+    <string name="fk_status_wrong">هذا المفتاح غير صحيح. لا شيء آخر تأثّر.</string>
+    <string name="fk_status_locked">محاولات خاطئة كثيرة. يمكنك المحاولة بعد %1$s. هاتفك نفسه غير مقفل.</string>
+    <string name="blk_ask_friend">اسأل صديقي (مفتاح الصديق)</string>
+    <string name="action_back">رجوع</string>
+    <string name="grow_prayer">الصلاة</string>
+    <string name="grow_prayer_next">القادمة: %1$s عند %2$s</string>
+    <string name="grow_more_later">العادات والتعلّم وعلم النفس والتطوير الشخصي واللياقة تصل في المرحلة القادمة. لا شيء هنا وهمي.</string>
+    <string name="prayer_in_hm">بعد %1$d س %2$d د</string>
+    <string name="pr_src_estimated_short">تقديري</string>
+    <string name="pr_fajr">الفجر</string>
+    <string name="pr_sunrise">الشروق</string>
+    <string name="pr_dhuhr">الظهر</string>
+    <string name="pr_asr">العصر</string>
+    <string name="pr_maghrib">المغرب</string>
+    <string name="pr_isha">العشاء</string>
+    <string name="pr_today">اليوم</string>
+    <string name="pr_log_hint">اضغط على صلاة لتسجّل كيف كانت. أنت وحدك ترى هذا.</string>
+    <string name="pr_week">آخر 7 أيام</string>
+    <string name="pr_state_on_time">في وقتها</string>
+    <string name="pr_state_late">متأخرة</string>
+    <string name="pr_state_missed">فائتة</string>
+    <string name="pr_state_missed_today">فاتتني اليوم</string>
+    <string name="pr_state_clear">مسح</string>
+    <string name="pr_week_empty">لا شيء مسجّل هذا الأسبوع بعد. ابدأ باليوم متى شئت.</string>
+    <string name="pr_week_summary">%1$d صلوات سُجّلت كمؤدّاة هذا الأسبوع (%2$d منها في وقتها).</string>
+    <string name="pr_week_day">%1$s: %2$d من 5</string>
+    <string name="pr_week_gentle">كل صلاة لها قيمتها. الفائتة سبب للبدء من جديد بلطف، لا للاستسلام.</string>
+    <string name="pr_update">حدّث المواقيت الآن</string>
+    <string name="pr_qibla">اتجاه القبلة</string>
+    <string name="pr_adhkar">الذكر والأذكار</string>
+    <string name="pr_settings">إعدادات الصلاة</string>
+    <string name="pr_src_estimated">تقديرية دون إنترنت من موضع الشمس. اتصل بالإنترنت واضغط «حدّث المواقيت» للحصول على مواقيت الطريقة الرسمية.</string>
+    <string name="pr_src_saved">مواقيت من «الأذان» (طريقة تونس)، محفوظة على هذا الهاتف.</string>
+    <string name="pr_next_in">%1$s بعد %2$d س %3$d د</string>
+    <string name="pr_updating">جارٍ التحديث…</string>
+    <string name="pr_update_ok">تم تحديث المواقيت.</string>
+    <string name="pr_update_offline">لا يوجد إنترنت. تُعرض المواقيت المحفوظة أو التقديرية.</string>
+    <string name="pr_update_error">تعذّر جلب المواقيت من الخادم. تُعرض المواقيت المحفوظة أو التقديرية.</string>
+    <string name="pr_reminders">تنبيهات الأذان</string>
+    <string name="pr_reminders_explain">يمكن لأحمد تنبيهك عند كل صلاة. هذا متوقف حتى تشغّله. لتنبيهات في وقتها يطلب منك أندرويد 12 السماح بالمنبهات الدقيقة، وبدونه قد تتأخر التنبيهات بضع دقائق.</string>
+    <string name="pr_reminders_on">شغّل التنبيهات</string>
+    <string name="pr_reminders_off">أوقف التنبيهات</string>
+    <string name="pr_exact_ok">المنبهات الدقيقة مسموحة. ستكون التنبيهات في وقتها.</string>
+    <string name="pr_exact_missing">المنبهات الدقيقة غير مسموحة. التنبيهات تعمل لكن قد تتأخر بضع دقائق.</string>
+    <string name="pr_exact_grant">اسمح بالمنبهات الدقيقة</string>
+    <string name="pr_notif_blocked">الإشعارات متوقفة لتطبيق أحمد، لذلك لا يمكن ظهور التنبيهات.</string>
+    <string name="pr_notif_open">افتح إعدادات الإشعارات</string>
+    <string name="pr_open_failed">تعذّر فتح صفحة الإعدادات تلك.</string>
+    <string name="pr_miui_hint">على هواتف شاومي/MIUI اضبط أحمد على «التشغيل التلقائي» والبطارية «بلا قيود»، وإلا قد يوقف النظام التنبيهات.</string>
+    <string name="pr_sound">صوت التنبيه</string>
+    <string name="pr_sound_default">نغمة الإشعار الافتراضية</string>
+    <string name="pr_sound_alarm">نغمة المنبه</string>
+    <string name="pr_sound_silent">صامت (اهتزاز فقط)</string>
+    <string name="pr_offsets">تعديل الوقت يدويًا</string>
+    <string name="pr_offsets_explain">إن اختلف وقت عن مسجدك المحلي فحرّكه حتى 10 دقائق. ينطبق على المواقيت المحفوظة والتقديرية.</string>
+    <string name="pr_offset_less">%1$s: دقيقة أبكر</string>
+    <string name="pr_offset_more">%1$s: دقيقة أبعد</string>
+    <string name="pr_focus">نافذة التركيز للصلاة</string>
+    <string name="pr_focus_explain">متوقفة افتراضيًا. عند تشغيلها تستريح التطبيقات «المحدودة» وتيك توك / إنستغرام مدة 10 دقائق من كل أذان (تحتاج الدرع). الهاتف والرسائل والإعدادات والساعة والخرائط لا تتأثر أبدًا.</string>
+    <string name="pr_focus_on">شغّل نافذة التركيز</string>
+    <string name="pr_focus_off">أوقف نافذة التركيز</string>
+    <string name="pr_channel_name">الصلاة</string>
+    <string name="pr_notif_title">حان وقت %1$s</string>
+    <string name="pr_notif_text">لحظة هدوء. اضغط لفتح أحمد.</string>
+    <string name="qibla_bearing">القبلة: %1$s° من الشمال الحقيقي</string>
+    <string name="qibla_no_sensor">لا يملك هذا الهاتف حسّاس دوران. استخدم الاتجاه أعلاه مع أي تطبيق بوصلة.</string>
+    <string name="qibla_hint">أمسك الهاتف أفقيًا. استدر حتى يشير السهم إلى الأعلى.</string>
+    <string name="qibla_calibrate">البوصلة تحتاج معايرة: حرّك الهاتف على شكل الرقم 8 عدة مرات.</string>
+    <string name="qibla_aligned">أنت تواجه القبلة.</string>
+    <string name="dhikr_counter">عدّاد الذكر</string>
+    <string name="dhikr_tap">عُدّ</string>
+    <string name="dhikr_reset">إعادة</string>
+    <string name="adhkar_1n">يُقال 100 مرة.</string>
+    <string name="adhkar_2n">يُقال حتى 100 مرة في اليوم.</string>
+    <string name="adhkar_3n">يُقال 10 مرات.</string>
+    <string name="adhkar_4n">الصلاة على النبي.</string>
+    <string name="adhkar_5n">في المساء: يُقال 3 مرات.</string>
+    <string name="adhkar_morning">أذكار الصباح</string>
+    <string name="adhkar_evening">أذكار المساء</string>
+    <string name="adhkar_disclaimer">عبارات قصيرة معروفة فقط. يُرجى التحقق من الألفاظ والأعداد من كتاب أو معلّم موثوق. لا آيات قرآنية ولا تفسير هنا.</string>
+    <string name="blk_prayer_title">حان وقت الصلاة</string>
+    <string name="blk_prayer_body">يستريح %1$s بضع دقائق الآن. اغتنم اللحظة للصلاة. يمكنك العودة إلى الشاشة الرئيسية.</string>
+    <string name="adhkar_1">سُبْحَانَ اللَّهِ وَبِحَمْدِهِ</string>
+    <string name="adhkar_2">أَسْتَغْفِرُ اللَّهَ وَأَتُوبُ إِلَيْهِ</string>
+    <string name="adhkar_3">لَا إِلَٰهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ</string>
+    <string name="adhkar_4">اللَّهُمَّ صَلِّ وَسَلِّمْ عَلَىٰ نَبِيِّنَا مُحَمَّدٍ</string>
+    <string name="adhkar_5">أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ</string>
+
+    <!-- Phase 6 -->
+    <string name="grow_habits">العادات</string>
+    <string name="grow_habits_sub">روتين يومي صغير، وابدأ من جديد بلطف</string>
+    <string name="grow_calm">الهدوء والنفس</string>
+    <string name="grow_calm_sub">الرغبات، المحفزات، تأمل المساء</string>
+    <string name="grow_personal">التطوير الذاتي</string>
+    <string name="grow_personal_sub">خطة الإنجليزية، المفردات، القراءة، الأهداف</string>
+    <string name="grow_learn">تعلّم</string>
+    <string name="grow_learn_sub">مكتبة منتقاة، بلا تصفح مفتوح</string>
+    <string name="grow_fitness">اللياقة</string>
+    <string name="grow_fitness_sub">جلسات منزلية قصيرة ومشي</string>
+    <string name="routine_morning">الصباح</string>
+    <string name="routine_evening">المساء</string>
+    <string name="routine_anytime">أي وقت</string>
+    <string name="habits_week">%1$d من %2$d هذا الأسبوع</string>
+    <string name="habit_add">أضف عادة</string>
+    <string name="habit_hint">اجعلها صغيرة جدًا، مثل «كوب ماء»</string>
+    <string name="habit_routine">متى؟</string>
+    <string name="habit_comeback">أهلًا بعودتك. هذا يُحسب لك.</string>
+    <string name="habit_run">%1$d أيام متتالية</string>
+    <string name="habit_restart">ابدأ من جديد بلطف في أي وقت</string>
+    <string name="habit_archive">أرشفة</string>
+    <string name="habit_archive_q">أرشفة هذه العادة؟ سجلّك محفوظ.</string>
+    <string name="habits_tiny_hint">اضغط مطولًا على العادة لأرشفتها. تفويت يوم أمر طبيعي، فقط تابع.</string>
+    <string name="timer_done">انتهى. أحسنت على حضورك.</string>
+    <string name="psy_not_medical">هذه أدوات بسيطة للمساعدة الذاتية، وليست نصيحة طبية أو علاجًا. إذا كان الأمر ثقيلًا فتحدث إلى طبيب أو شخص تثق به.</string>
+    <string name="psy_tools">أدوات</string>
+    <string name="psy_two_min">ابدأ لمدة دقيقتين</string>
+    <string name="psy_urge">ركوب موجة الرغبة (3 دقائق)</string>
+    <string name="psy_replace">اختر نشاطًا بديلًا</string>
+    <string name="psy_trigger_add">سجّل محفّزًا</string>
+    <string name="psy_recovery">تعثرت: أستعيد توازني</string>
+    <string name="psy_recovery_done">التعثر يحدث. عدت، وهذه هي المهارة.</string>
+    <string name="psy_t_what">ماذا حدث؟</string>
+    <string name="psy_t_where">أين كنت؟</string>
+    <string name="psy_t_feeling">كيف شعرت؟</string>
+    <string name="psy_t_saved">تم الحفظ. الملاحظة هي الخطوة الأولى.</string>
+    <string name="psy_trigger_recent">محفزات حديثة</string>
+    <string name="psy_trigger_hint">ابحث عن أنماط في الوقت والمكان والشعور. تبقى على هاتفك فقط.</string>
+    <string name="reflect_evening">تأمل المساء</string>
+    <string name="reflect_weekly">المراجعة الأسبوعية</string>
+    <string name="reflect_friday">اليوم الجمعة: وقت مناسب لمراجعتك الأسبوعية.</string>
+    <string name="reflect_intro">ثلاثة أسئلة قصيرة. اكتب قليلًا أو كثيرًا كما تشاء.</string>
+    <string name="re_q1">ما الذي سار جيدًا اليوم؟</string>
+    <string name="re_q2">ما الذي كان صعبًا، وماذا فعلت؟</string>
+    <string name="re_q3">شيء صغير واحد لغد</string>
+    <string name="rw_q1">ما أفضل لحظة في هذا الأسبوع؟</string>
+    <string name="rw_q2">ما الذي أرهقني، وما الذي ساعدني؟</string>
+    <string name="rw_q3">ما الذي سأُبقيه أو أغيّره الأسبوع القادم؟</string>
+    <string name="reflect_empty">اكتب بضع كلمات على الأقل أولًا.</string>
+    <string name="reflect_saved">تم الحفظ على هاتفك.</string>
+    <string name="reflect_past">آخر التدوينات</string>
+    <string name="pd_log_minutes">سجّل دقائق التعلّم</string>
+    <string name="pd_minutes_hint">الدقائق</string>
+    <string name="pd_logged">تم التسجيل</string>
+    <string name="pd_week_minutes">التعلّم في آخر 7 أيام: %1$d دقيقة</string>
+    <string name="pd_english">الإنجليزية A1 → A2، 4 أسابيع</string>
+    <string name="pd_english_intro">نحو 20 دقيقة يوميًا. ضع علامة على المهام عند إنهائها.</string>
+    <string name="pd_week">الأسبوع %1$d</string>
+    <string name="pd_vocab">المفردات</string>
+    <string name="pd_vocab_due">%1$d مستحقة اليوم، و%2$d كلمة في المجموع</string>
+    <string name="pd_review">راجع الكلمات المستحقة</string>
+    <string name="pd_add_word">أضف كلمة</string>
+    <string name="pd_word_hint">الكلمة بالإنجليزية</string>
+    <string name="pd_translation_hint">المعنى</string>
+    <string name="pd_card_of">بطاقة %1$d من %2$d</string>
+    <string name="pd_show">أظهر الإجابة</string>
+    <string name="pd_knew">عرفتها</string>
+    <string name="pd_again">ليس بعد</string>
+    <string name="pd_review_done">انتهت المراجعة. عمل جميل.</string>
+    <string name="pd_reading">خطة القراءة</string>
+    <string name="pd_add_book">أضف كتابًا</string>
+    <string name="pd_book_title">عنوان الكتاب</string>
+    <string name="pd_book_pages">عدد الصفحات</string>
+    <string name="pd_book_progress">%1$d من %2$d صفحة (%3$d%%). نحو %4$d يومًا متبقية بوتيرتك. اضغط لتسجيل الصفحات.</string>
+    <string name="pd_pages_today">الصفحات المقروءة اليوم</string>
+    <string name="pd_exercises">التفكير والتواصل</string>
+    <string name="pd_exercise_sub">تمرين قصير</string>
+    <string name="pd_goals">الأهداف</string>
+    <string name="pd_add_goal">أضف هدفًا</string>
+    <string name="pd_goal_hint">ما الذي تريد بلوغه؟</string>
+    <string name="pd_goal_progress">%1$d من %2$d مراحل</string>
+    <string name="pd_add_milestone">أضف مرحلة</string>
+    <string name="pd_milestone_hint">خطوة صغيرة تالية</string>
+    <string name="pd_goal_done">اعتبر الهدف منجزًا</string>
+    <string name="cat_english">الإنجليزية</string>
+    <string name="cat_science">العلوم</string>
+    <string name="cat_history">التاريخ</string>
+    <string name="cat_culture">ثقافة عامة</string>
+    <string name="cat_technology">التقنية</string>
+    <string name="cat_programming">البرمجة</string>
+    <string name="cat_entrepreneurship">ريادة الأعمال</string>
+    <string name="cat_business">الأعمال</string>
+    <string name="learn_intro">مكتبة صغيرة تختارها. بلا بحث ولا توصيات ولا Shorts.</string>
+    <string name="learn_limit">ملاحظة صريحة: قد تظهر فيديوهات مقترحة في نهاية الفيديو المضمّن ولا يمكن إيقافها كليًا. القنوات الرسمية تُفتح في يوتيوب نفسه.</string>
+    <string name="learn_filter">تصفية</string>
+    <string name="learn_f_all">الكل</string>
+    <string name="learn_f_fav">المفضلة</string>
+    <string name="learn_f_later">للمشاهدة لاحقًا</string>
+    <string name="learn_f_history">السجل</string>
+    <string name="learn_verify">تحقق من الرابط</string>
+    <string name="learn_none">لا شيء هنا بعد.</string>
+    <string name="learn_add">أضف فيديو بالرابط</string>
+    <string name="learn_url_hint">رابط فيديو يوتيوب</string>
+    <string name="learn_title_hint">العنوان</string>
+    <string name="learn_category">الفئة</string>
+    <string name="learn_bad_url">هذا ليس رابط فيديو يمكنني استخدامه.</string>
+    <string name="learn_no_shorts">لا تُضاف مقاطع Shorts هنا، وهذا مقصود.</string>
+    <string name="learn_watch">شاهد</string>
+    <string name="learn_open_channel">افتح القناة</string>
+    <string name="learn_fav">أضف للمفضلة</string>
+    <string name="learn_unfav">أزل من المفضلة</string>
+    <string name="learn_later">شاهد لاحقًا</string>
+    <string name="learn_unlater">أزل من المشاهدة لاحقًا</string>
+    <string name="learn_note">ملاحظة</string>
+    <string name="learn_note_hint">ماذا تعلّمت؟</string>
+    <string name="learn_remove">أزل من المكتبة</string>
+    <string name="learn_no_app">لا يوجد تطبيق يفتح هذا الرابط.</string>
+    <string name="player_note">قد تظهر فيديوهات مقترحة في النهاية. أغلق عند الانتهاء.</string>
+    <string name="player_done">انتهيت من المشاهدة</string>
+    <string name="fit_safety">تحرّك بوتيرة مريحة. توقّف إذا شعرت بألم أو دوار، واستشر طبيبًا عند الشك.</string>
+    <string name="fit_today">اليوم</string>
+    <string name="fit_all">كل الجلسات</string>
+    <string name="fit_rest">يوم راحة. ثلاثة أيام نشاط متتالية، فليرتح جسمك. مشي هادئ لا بأس به.</string>
+    <string name="fit_minutes">%1$d دقيقة، بلا أدوات</string>
+    <string name="fit_done">انتهت الجلسة. جميل.</string>
+    <string name="fit_walk">المشي</string>
+    <string name="fit_log_walk">سجّل مشيًا</string>
+    <string name="fit_minutes_hint">دقائق المشي</string>
+    <string name="fit_week">الحركة في آخر 7 أيام: %1$d دقيقة</string>
+    <string name="fit_goal_suggest">هدف لطيف للأسبوع القادم: %1$d دقيقة (لا يزيد عن 10%% فوق ما فعلته)</string>
+    <string name="fit_last14">آخر 14 يومًا: %1$d دقيقة</string>
+    <string name="fit_no_steps">لا تُحتسب الخطوات تلقائيًا، لذا لا حاجة لصلاحية إضافية. سجّل دقائق المشي بنفسك.</string>
+    <string name="score_title">مؤشر نموّك هذا الأسبوع</string>
+    <string name="score_value">%1$d / 100</string>
+    <string name="score_not_enough">لا توجد بيانات كافية بعد</string>
+    <string name="score_up">أعلى بـ%1$d من الأسبوع الماضي</string>
+    <string name="score_down">أقل بـ%1$d من الأسبوع الماضي. لا بأس.</string>
+    <string name="score_same">مثل الأسبوع الماضي</string>
+    <string name="score_none">—</string>
+    <string name="score_components">الصلاة %1$s · العادات %2$s · التعلّم %3$s · الحركة %4$s · الإبداع %5$s · التركيز %6$s</string>
+    <string name="score_note">اتجاه لك وحدك، وليس درجة. «—» تعني لا بيانات بعد.</string>
+    <string-array name="gentle_messages">
+        <item>خطوة صغيرة واحدة تكفي اليوم.</item>
+        <item>الحضور أهم من الكمال.</item>
+        <item>تستطيع أن تبدأ من جديد الآن.</item>
+        <item>التعثر معلومة وليس حكمًا.</item>
+        <item>كن لطيفًا مع نفسك كما تكون مع صديق.</item>
+        <item>الراحة جزء من النمو.</item>
+        <item>الأفعال الصغيرة تتراكم بهدوء.</item>
+        <item>لا يلزم أن تشعر بالاستعداد لتبدأ.</item>
+        <item>يكفي أن يكون اليوم أفضل قليلًا من يوم سيئ.</item>
+        <item>تنفّس ببطء. لديك وقت أكثر مما تشعر.</item>
+        <item>التقدم نادرًا ما يكون خطًا مستقيمًا.</item>
+        <item>عدتَ، وهذه هي المهارة كلها.</item>
+        <item>اختر الشيء الصغير التالي فقط.</item>
+        <item>قيمتك ليست إنتاجيتك.</item>
+        <item>الأيام الصعبة تُحسب أيضًا.</item>
+        <item>لاحظ الرغبة ودعها تمرّ كموجة.</item>
+        <item>أنت تبني حياة، لا تؤدي اختبارًا.</item>
+        <item>دقيقتان بداية حقيقية.</item>
+        <item>اشرب ماءً وتمطّط قليلًا.</item>
+        <item>المشي قد يغيّر مزاج يوم كامل.</item>
+        <item>لقد تجاوزت كل الأيام الصعبة حتى الآن.</item>
+        <item>دع «الجيد بما يكفي» يكفي.</item>
+        <item>البطء ما زال حركة.</item>
+        <item>الانضباط اللطيف يدوم أكثر من القاسي.</item>
+        <item>اليوم احمِ نومك.</item>
+        <item>لا بأس أن تطلب المساعدة.</item>
+        <item>اشكر أحدًا اليوم، فهذا يرفعك أنت أيضًا.</item>
+        <item>تذكّر لماذا بدأت، بلطف.</item>
+        <item>تستطيع فعل الصعب على قطع صغيرة.</item>
+        <item>هاتفك يستطيع الانتظار. انتباهك ثمين.</item>
+        <item>ابدأ قبل أن تشعر بالحماس.</item>
+        <item>كل عودة تُعدّ فوزًا.</item>
+        <item>انظر كم قطعت، لا كم تبقّى فقط.</item>
+        <item>دقيقة راحة صادقة خير من ساعة ذنب.</item>
+        <item>ماذا سيفعل النسخة الهادئة منك الآن؟</item>
+        <item>السلام ينمو من خيارات صغيرة متكررة.</item>
+        <item>يمكنك أن تمضي ساعة بساعة.</item>
+        <item>ألا تكون كاملًا لا يعني ألا تنمو.</item>
+        <item>الروتين الجيد هو ما تستطيع الحفاظ عليه في يوم سيئ.</item>
+        <item>أنت تتعلّم، والتعلّم فوضوي.</item>
+        <item>ادعُ دعاءً هادئًا أو خذ نفسًا عميقًا، حسب حاجتك.</item>
+        <item>اليوم صفحة جديدة.</item>
+        <item>اصبر: الجذور تنمو قبل الأوراق.</item>
+        <item>واصل بلطف.</item>
+    </string-array>
+    <string-array name="urge_lines">
+        <item>لاحظ الرغبة. أين تشعر بها في جسمك؟</item>
+        <item>شهيق أربع عدّات، وزفير ست. لا يلزمك أن تتصرف.</item>
+        <item>الرغبة ترتفع ثم تبلغ ذروتها ثم تهبط كموجة. واصل المراقبة.</item>
+        <item>إنها أضعف مما كانت قبل دقيقة. واصل التنفس.</item>
+        <item>أنت من يراقب الرغبة وليس الرغبة نفسها.</item>
+        <item>اقتربنا. دعها تمرّ.</item>
+    </string-array>
+    <string-array name="replace_actions">
+        <item>اشرب كوب ماء ببطء.</item>
+        <item>افعل 10 تمارين قرفصاء أو ضغط ببطء.</item>
+        <item>اخرج وانظر إلى السماء.</item>
+        <item>اغسل وجهك بماء بارد.</item>
+        <item>اتصل أو راسل شخصًا طيبًا.</item>
+        <item>توضأ وصلِّ ركعتين.</item>
+        <item>اكتب ما تشعر به في ثلاثة أسطر.</item>
+    </string-array>
+    <string-array name="feelings">
+        <item>هادئ</item>
+        <item>ملل</item>
+        <item>توتر</item>
+        <item>وحدة</item>
+        <item>تعب</item>
+        <item>حزن</item>
+        <item>قلق</item>
+        <item>غضب</item>
+        <item>أخرى</item>
+    </string-array>
+    <string-array name="recovery_steps">
+        <item>توقف وتنفّس ببطء ثلاث مرات.</item>
+        <item>سمِّ ما حدث بجملة واحدة محايدة، دون لوم لنفسك.</item>
+        <item>اسأل: ما المحفّز؟ الوقت أم المكان أم الشعور؟</item>
+        <item>اختر عملًا صغيرًا للساعة القادمة يعيدك إلى الاتجاه الآخر.</item>
+        <item>ارجع إلى روتينك عند الصلاة القادمة. يومك لم يفسد.</item>
+    </string-array>
+    <string-array name="english_w1">
+        <item>تعلّم أصوات الحروف والتحيات.</item>
+        <item>قل 5 جمل عن نفسك بصوت عالٍ.</item>
+        <item>تعلّم 10 كلمات عن العائلة والحياة اليومية.</item>
+        <item>استمع إلى درس إنجليزي بطيء لمدة 10 دقائق.</item>
+    </string-array>
+    <string-array name="english_w2">
+        <item>تدرّب على المضارع البسيط: I work, he works.</item>
+        <item>تعلّم 10 كلمات عن الطعام والتسوق.</item>
+        <item>اكتب 5 جمل عن يومك.</item>
+        <item>مثّل طلب طعام أو سؤالًا عن سعر.</item>
+    </string-array>
+    <string-array name="english_w3">
+        <item>تدرّب على الماضي البسيط: I went, I saw.</item>
+        <item>تعلّم 10 كلمات عن السفر والأماكن.</item>
+        <item>احكِ قصة قصيرة عن عطلتك في 6 جمل.</item>
+        <item>شاهد فيديو إنجليزيًا قصيرًا بترجمة.</item>
+    </string-array>
+    <string-array name="english_w4">
+        <item>تدرّب على المستقبل مع will و going to.</item>
+        <item>تعلّم 10 كلمات عن العمل والدراسة.</item>
+        <item>اكتب رسالة أو بريدًا قصيرًا بالإنجليزية.</item>
+        <item>تدرّب على التحدث 5 دقائق وسجّل صوتك.</item>
+    </string-array>
+    <string-array name="exercise_titles">
+        <item>اسأل افتراضك</item>
+        <item>قلها بوضوح</item>
+        <item>خطوة ثقة</item>
+    </string-array>
+    <string-array name="exercise_texts">
+        <item>اختر قناعة تتمسك بها. اكتب سببًا قد يجعلها خاطئة وحقيقة تدعمها. وحدد ما الذي سيغيّر رأيك.</item>
+        <item>اختر فكرة تريد قولها. قلها في جملتين: الفكرة ثم سبب واحد. ثم استمع إلى الرد دون مقاطعة.</item>
+        <item>اختر أمرًا صغيرًا يوتّرك قليلًا، كطرح سؤال. افعله اليوم واكتب كيف سار.</item>
+    </string-array>
+    <string-array name="workout_names">
+        <item>بداية لطيفة</item>
+        <item>البطن والساقان</item>
+        <item>تمرين كامل متنوع</item>
+        <item>قوة وتوازن</item>
+        <item>تدفق أطول</item>
+    </string-array>
+    <string-array name="workout_0">
+        <item>مشي ببطء في المكان</item>
+        <item>دوائر بالذراعين</item>
+        <item>قرفصاء خفيفة</item>
+        <item>تدوير الكتفين وتمطيط الرقبة</item>
+        <item>تنفس بطيء وتهدئة</item>
+    </string-array>
+    <string-array name="workout_1">
+        <item>رفع الركبتين بالمشي</item>
+        <item>قرفصاء</item>
+        <item>رفع الحوض</item>
+        <item>بلانك على الركبتين أو الأصابع</item>
+        <item>جلوس على الحائط</item>
+        <item>تمطيط الساقين والظهر</item>
+    </string-array>
+    <string-array name="workout_2">
+        <item>إحماء بالمشي</item>
+        <item>قفز الجاك أو خطوات جانبية</item>
+        <item>قرفصاء</item>
+        <item>ضغط (حائط أو ركبة أو كامل)</item>
+        <item>اندفاع للأمام</item>
+        <item>بلانك</item>
+        <item>تسلّق الجبل ببطء</item>
+        <item>تمطيط تهدئة</item>
+    </string-array>
+    <string-array name="workout_3">
+        <item>إحماء بالمشي</item>
+        <item>قرفصاء</item>
+        <item>ضغط</item>
+        <item>اندفاع للأمام</item>
+        <item>وضع سوبرمان</item>
+        <item>بلانك جانبي (يسار)</item>
+        <item>بلانك جانبي (يمين)</item>
+        <item>توازن على قدم واحدة</item>
+        <item>رفع الحوض</item>
+        <item>تمطيط تهدئة</item>
+    </string-array>
+    <string-array name="workout_4">
+        <item>إحماء بالمشي</item>
+        <item>دوائر بالذراعين</item>
+        <item>قرفصاء</item>
+        <item>ضغط</item>
+        <item>اندفاع</item>
+        <item>بلانك</item>
+        <item>خطوات جانبية</item>
+        <item>رفع الحوض</item>
+        <item>وضع سوبرمان</item>
+        <item>وضع الكلب والطائر</item>
+        <item>وضعية الطفل</item>
+        <item>تنفس بطيء</item>
+    </string-array>
+
+    <!-- Phase 7 -->
+    <string name="work_title">العمل</string>
+    <string name="work_tab_sub">المشاريع، المهام، الأخطاء، اليوميات، مؤقت التطوير</string>
+    <string name="work_projects">المشاريع</string>
+    <string name="work_project">مشروع</string>
+    <string name="work_add_project">أضف مشروعًا</string>
+    <string name="work_project_hint">اسم المشروع</string>
+    <string name="work_open_items">%1$d عناصر مفتوحة</string>
+    <string name="work_dev">مؤقت جلسة التطوير</string>
+    <string name="work_dev_cfg">عمل %1$d دقيقة، استراحة %2$d دقيقة</string>
+    <string name="work_dev_start">ابدأ جلسة تطوير</string>
+    <string name="work_dev_cfg_btn">غيّر المدد</string>
+    <string name="work_dev_work_hint">دقائق العمل (5-180)</string>
+    <string name="work_dev_break_hint">دقائق الاستراحة (1-60)</string>
+    <string name="work_break">استراحة</string>
+    <string name="work_break_line">قف، اشرب ماءً، وأرح عينيك.</string>
+    <string name="work_journal">يوميات العمل</string>
+    <string name="work_journal_add">أضف تدوينة</string>
+    <string name="work_journal_hint">ماذا بنيت أو تعلّمت؟</string>
+    <string name="work_repos">مستودعات GitHub</string>
+    <string name="work_add_repo">أضف رابط مستودع</string>
+    <string name="work_ai">أدوات الذكاء الاصطناعي</string>
+    <string name="work_ai_note">يفتح التطبيق المثبّت، أو الموقع إن لم يكن مثبّتًا.</string>
+    <string name="ai_claude">Claude</string>
+    <string name="ai_chatgpt">ChatGPT</string>
+    <string name="ai_gemini">Gemini</string>
+    <string name="work_resources">مصادر تقنية</string>
+    <string name="work_add_resource">أضف مصدرًا</string>
+    <string name="work_link_title">العنوان</string>
+    <string name="work_link_url">الرابط (https://…)</string>
+    <string name="work_open">افتح</string>
+    <string name="link_bad">هذا ليس رابط ويب صالحًا.</string>
+    <string name="pk_task">المهام</string>
+    <string name="pk_bug">الأخطاء</string>
+    <string name="pk_feature">المزايا</string>
+    <string name="pk_milestone">المراحل</string>
+    <string name="pk_add_task">أضف مهمة</string>
+    <string name="pk_add_bug">أضف خطأً</string>
+    <string name="pk_add_feature">أضف ميزة</string>
+    <string name="pk_add_milestone">أضف مرحلة</string>
+    <string name="pn_notes">ملاحظات المشروع</string>
+    <string name="pn_empty">اضغط لكتابة ملاحظات</string>
+    <string name="pn_none">لا شيء بعد</string>
+    <string name="pn_add">أضف</string>
+    <string name="pn_title_hint">العنوان</string>
+    <string name="pn_doing">قيد التنفيذ</string>
+    <string name="pn_set_doing">علّم قيد التنفيذ</string>
+    <string name="pn_set_prio">حدد الأولوية</string>
+    <string name="pn_high">(عالية)</string>
+    <string name="pn_low">(منخفضة)</string>
+    <string name="creator_title">صناعة المحتوى</string>
+    <string name="creator_tab_sub">أفكار، سيناريوهات، تقويم لتيك توك وإنستغرام</string>
+    <string name="creator_goal">هذا الأسبوع: %1$d من %2$d فيديوهات نُشرت</string>
+    <string name="creator_goal_met">تحقق الهدف. استمتع بذلك.</string>
+    <string name="creator_goal_gentle">اضغط لتغيير الهدف. هدف أصغر تلتزم به أفضل من كبير تتركه.</string>
+    <string name="creator_goal_set">الهدف الأسبوعي (فيديوهات)</string>
+    <string name="creator_add_idea">أضف فكرة</string>
+    <string name="creator_idea_hint">الفكرة في كلمات قليلة</string>
+    <string name="creator_calendar">تقويم المحتوى</string>
+    <string name="creator_view_week">اعرض هذا الأسبوع</string>
+    <string name="creator_view_month">اعرض هذا الشهر</string>
+    <string name="creator_cal_empty">لا شيء مجدول في هذه الفترة.</string>
+    <string name="stage_idea">فكرة</string>
+    <string name="stage_planning">تخطيط</string>
+    <string name="stage_recording">تصوير</string>
+    <string name="stage_editing">مونتاج</string>
+    <string name="stage_ready">جاهز</string>
+    <string name="stage_published">منشور</string>
+    <string name="plat_tiktok">تيك توك</string>
+    <string name="plat_instagram">إنستغرام</string>
+    <string name="plat_both">كلاهما</string>
+    <string name="creator_advance">انقل إلى المرحلة التالية</string>
+    <string name="creator_edit">السيناريو والوصف والوسوم</string>
+    <string name="creator_set_date">حدد تاريخ النشر</string>
+    <string name="creator_set_platform">حدد المنصة</string>
+    <string name="creator_open_post">افتح المنشور</string>
+    <string name="creator_no_url">لا يوجد رابط منشور محفوظ.</string>
+    <string name="creator_checklist">قبل النشر</string>
+    <string name="creator_mark_published">علّم كمنشور</string>
+    <string name="creator_post_url">رابط المنشور</string>
+    <string name="creator_post_url_hint">اختياري: الصق الرابط</string>
+    <string name="creator_open_apps">افتح التطبيقات</string>
+    <string name="creator_open_note">لا يُنشر شيء نيابةً عنك ولا يُدخل إلى أي حساب. فتح تطبيق التواصل يخضع لقواعد الجلسة المعتادة في الدرع.</string>
+    <string name="creator_app_missing">هذا التطبيق غير مثبّت.</string>
+    <string name="cs_hook">الافتتاحية</string>
+    <string name="cs_body">المحتوى</string>
+    <string name="cs_cta">الدعوة لإجراء</string>
+    <string name="cs_caption">الوصف</string>
+    <string name="cs_hashtags">الوسوم</string>
+    <string name="cs_hook_hint">أول ثانيتين</string>
+    <string name="cs_body_hint">النقاط الرئيسية</string>
+    <string name="cs_cta_hint">ماذا يفعل المشاهد؟</string>
+    <string name="cs_caption_hint">نص الوصف</string>
+    <string name="cs_hashtags_hint">#وسم #وسم</string>
+    <string name="cs_insert_tags">مجموعات الوسوم</string>
+    <string name="cs_new_set">احفظ كمجموعة جديدة</string>
+    <string name="cs_set_name">اسم المجموعة</string>
+    <string name="focus_title">التركيز والإشعارات</string>
+    <string name="focus_tab_sub">%1$d دقيقة تركيز في آخر 7 أيام</string>
+    <string name="focus_session">جلسة تركيز</string>
+    <string name="focus_line">شيء واحد في كل مرة. ضع الهاتف جانبًا.</string>
+    <string name="focus_start_min">ابدأ %1$d دقيقة</string>
+    <string name="focus_custom">مدة مخصصة</string>
+    <string name="focus_custom_hint">الدقائق (5-240)</string>
+    <string name="focus_custom_range">اختر قيمة ضمن النطاق المسموح.</string>
+    <string name="focus_week">التركيز في آخر 7 أيام: %1$d دقيقة</string>
+    <string name="focus_dnd_title">عدم الإزعاج</string>
+    <string name="focus_dnd_on">تم منح الإذن. يمكن للجلسات وفترات الهدوء كتم هاتفك.</string>
+    <string name="focus_dnd_off">لم يُمنح الإذن بعد.</string>
+    <string name="focus_dnd_explain">لكتم الإشعارات أثناء التركيز يحتاج أندرويد أن تمنح هذا التطبيق إذن عدم الإزعاج من إعدادات النظام. هذا التطبيق لا يقرأ إشعاراتك أبدًا.</string>
+    <string name="focus_dnd_grant">افتح إذن عدم الإزعاج</string>
+    <string name="focus_fallback">دون الإذن يعمل المؤقت لكن إشعاراتك لا تُكتم. يمكنك أيضًا تفعيل عدم الإزعاج بنفسك.</string>
+    <string name="focus_allowed">المسموح دائمًا: مكالمات المفضّلين، المنبهات، تذكيرات الصلاة. تنبيهات الطوارئ من النظام لا تُحجب أبدًا.</string>
+    <string name="focus_no_dnd_toast">إذن عدم الإزعاج غير ممنوح. يعمل المؤقت دون كتم الإشعارات.</string>
+    <string name="quiet_title">فترات الهدوء</string>
+    <string name="quiet_explain">يعمل عدم الإزعاج ويتوقف تلقائيًا في هذه الأوقات (يتطلب الإذن). قد يتأخر بضع دقائق.</string>
+    <string name="quiet_on">مفعّلة</string>
+    <string name="quiet_off">متوقفة</string>
+    <string name="quiet_turn_on">فعّل</string>
+    <string name="quiet_turn_off">أوقف</string>
+    <string name="quiet_add">أضف فترة هدوء</string>
+    <string name="quiet_from">من</string>
+    <string name="quiet_to">إلى</string>
+    <string name="quiet_same">يجب أن يختلف وقت البداية عن النهاية.</string>
+    <string name="an_title">التحليلات</string>
+    <string name="an_tab_sub">ملخصات محلية، أسبوع وشهر</string>
+    <string name="an_local_note">كل ما هنا يُحسب على هاتفك مما سجّلته. لا شيء يُرسل إلى أي مكان.</string>
+    <string name="an_show_month">اعرض آخر 30 يومًا</string>
+    <string name="an_show_week">اعرض آخر 7 أيام</string>
+    <string name="an_habits">العادات</string>
+    <string name="an_learning">التعلّم</string>
+    <string name="an_movement">الحركة</string>
+    <string name="an_focus">التركيز</string>
+    <string name="an_creator">إنتاج المحتوى</string>
+    <string name="an_social">جلسات التواصل</string>
+    <string name="an_unit_checks">تأشيرات</string>
+    <string name="an_unit_min">دقيقة</string>
+    <string name="an_unit_posts">منشورات</string>
+    <string name="an_unit_sessions">جلسات</string>
+    <string name="an_summary">%1$d %2$s، نشاط في %3$d من %4$d يومًا</string>
+    <string name="an_no_data">لا بيانات في هذه الفترة</string>
+    <string name="an_prayer">الصلاة في وقتها</string>
+    <string name="an_prayer_value">%1$d%% في الوقت (%2$d من %3$d مسجّلة)</string>
+    <string name="an_your_data">بياناتك</string>
+    <string name="an_export">صدّر كل شيء (JSON)</string>
+    <string name="an_delete_note">الحذف يزيل ما أنشأته. يُحتفظ بسجل جلسات التواصل وسجل التلاعب بالساعة وإعدادات حماية التطبيقات ومفتاح الصديق حتى لا يمكن تجاوز الحماية بالحذف.</string>
+    <string name="an_delete">احذف بياناتي</string>
+    <string name="an_delete_confirm">سيحذف هذا نهائيًا عاداتك وملاحظاتك ومشاريعك ومحتواك وسجلاتك وسجل صلواتك على هذا الهاتف. صدّر أولًا إن أردت نسخة.</string>
+    <string name="an_delete_yes">احذف</string>
+    <string name="an_deleted">تم حذف بياناتك.</string>
+    <string-array name="publish_checklist">
+        <item>الصوت واضح</item>
+        <item>النص المكتوب مقروء</item>
+        <item>الافتتاحية في الثواني الأولى</item>
+        <item>الوصف والوسوم جاهزة</item>
+        <item>لا شيء خاص ظاهر</item>
+    </string-array>
+</resources>

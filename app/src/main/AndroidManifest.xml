@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Permissions are added ONLY when the module that needs them exists.
+         Each one must be explained in docs/PERMISSIONS.md and requested
+         at runtime only after an explanation screen + explicit tap.
+         NOT declared on purpose: QUERY_ALL_PACKAGES.
+
+         03 Shield: uses an AccessibilityService (below). It needs no manifest permission
+                    besides BIND_ACCESSIBILITY_SERVICE on the service; the user enables it in
+                    Android Settings. Usage Access (PACKAGE_USAGE_STATS) is NOT used.
+         05 Prayer: INTERNET (times from api.aladhan.com), POST_NOTIFICATIONS (Android 13+),
+                    SCHEDULE_EXACT_ALARM (user grant, explained first), RECEIVE_BOOT_COMPLETED.
+         06 Growth: no permission (steps are logged by hand; ACTIVITY_RECOGNITION is not used).
+         07 Focus:  ACCESS_NOTIFICATION_POLICY (Do Not Disturb access, special grant in system settings).
+    -->
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+
+    <!-- Package visibility (no QUERY_ALL_PACKAGES): launcher apps, plus the handlers of
+         dial / SMS / settings / alarms / maps so the Shield can learn which packages it must
+         never interfere with on THIS device. -->
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.DIAL" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.SENDTO" />
+            <data android:scheme="smsto" />
+        </intent>
+        <intent>
+            <action android:name="android.settings.SETTINGS" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.SHOW_ALARMS" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="geo" />
+        </intent>
+    </queries>
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Ahmed">
+
+        <!-- Normal launcher-menu entry (also keeps Settings reachable
+             when AHMED is not the default Home app). -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Makes AHMED selectable as the Home app (system Home chooser). -->
+        <activity-alias
+            android:name=".HomeAlias"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:targetActivity=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity-alias>
+
+        <!-- Adhan alarm + re-scheduling after reboot / timezone / clock change / app update. -->
+        <receiver
+            android:name=".prayer.PrayerReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Quiet periods: switches Do Not Disturb on/off at the scheduled times (needs the user's explicit DND access). -->
+        <receiver
+            android:name=".focus.QuietReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Friend Key screen: never gated, reachable from More and from the blocked screen. -->
+        <activity
+            android:name=".friendkey.FriendKeyActivity"
+            android:exported="false" />
+
+        <!-- AHMED's own honest "blocked / pause / session" screen. -->
+        <activity
+            android:name=".shield.BlockedActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:launchMode="singleTask" />
+
+        <!-- Foreground detection: window-change events, package name only, no content. -->
+        <service
+            android:name=".shield.ShieldService"
+            android:exported="true"
+            android:label="@string/shield_service_label"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/shield_service" />
+        </service>
+
+    </application>
+</manifest>

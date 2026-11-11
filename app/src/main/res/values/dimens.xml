@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- spacing scale 4/8/12/16/24 -->
+    <dimen name="space_4">4dp</dimen>
+    <dimen name="space_8">8dp</dimen>
+    <dimen name="space_12">12dp</dimen>
+    <dimen name="space_16">16dp</dimen>
+    <dimen name="space_24">24dp</dimen>
+    <dimen name="card_radius">20dp</dimen>
+    <dimen name="touch_min">48dp</dimen>
+    <dimen name="nav_height">64dp</dimen>
+    <dimen name="text_title">24sp</dimen>
+    <dimen name="text_section">14sp</dimen>
+    <dimen name="text_body">16sp</dimen>
+    <dimen name="text_small">13sp</dimen>
+</resources>
